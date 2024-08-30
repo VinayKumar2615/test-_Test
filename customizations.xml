@@ -1,0 +1,725 @@
+<ImportExportXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Entities></Entities>
+  <Roles></Roles>
+  <Workflows>
+    <Workflow WorkflowId="{1c73f2eb-6a42-ef11-a316-000d3a0a7dc2}" Name="Send_or_Receive_Claim_or_Advance_Amount">
+      <JsonFileName>/Workflows/Send_or_Receive_Claim_or_Advance_Amount-1C73F2EB-6A42-EF11-A316-000D3A0A7DC2.json</JsonFileName>
+      <Type>1</Type>
+      <Subprocess>0</Subprocess>
+      <Category>5</Category>
+      <Mode>0</Mode>
+      <Scope>4</Scope>
+      <OnDemand>0</OnDemand>
+      <TriggerOnCreate>0</TriggerOnCreate>
+      <TriggerOnDelete>0</TriggerOnDelete>
+      <AsyncAutodelete>0</AsyncAutodelete>
+      <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+      <StateCode>1</StateCode>
+      <StatusCode>2</StatusCode>
+      <RunAs>1</RunAs>
+      <IsTransacted>1</IsTransacted>
+      <IntroducedVersion>1.0.0.17</IntroducedVersion>
+      <IsCustomizable>1</IsCustomizable>
+      <IsCustomProcessingStepAllowedForOtherPublishers>1</IsCustomProcessingStepAllowedForOtherPublishers>
+      <PrimaryEntity>none</PrimaryEntity>
+      <LocalizedNames>
+        <LocalizedName languagecode="1033" description="Send_or_Receive_Claim_or_Advance_Amount" />
+      </LocalizedNames>
+    </Workflow>
+    <Workflow WorkflowId="{007c0cf6-129f-ee11-a569-000d3aca2f47}" Name="Finance Module 5 - Finance Travel Claim Approval">
+      <JsonFileName>/Workflows/FinanceModule5-FinanceTravelClaimApproval-007C0CF6-129F-EE11-A569-000D3ACA2F47.json</JsonFileName>
+      <Type>1</Type>
+      <Subprocess>0</Subprocess>
+      <Category>5</Category>
+      <Mode>0</Mode>
+      <Scope>4</Scope>
+      <OnDemand>0</OnDemand>
+      <TriggerOnCreate>0</TriggerOnCreate>
+      <TriggerOnDelete>0</TriggerOnDelete>
+      <AsyncAutodelete>0</AsyncAutodelete>
+      <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+      <StateCode>1</StateCode>
+      <StatusCode>2</StatusCode>
+      <RunAs>1</RunAs>
+      <IsTransacted>1</IsTransacted>
+      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IsCustomizable>1</IsCustomizable>
+      <IsCustomProcessingStepAllowedForOtherPublishers>1</IsCustomProcessingStepAllowedForOtherPublishers>
+      <PrimaryEntity>none</PrimaryEntity>
+      <LocalizedNames>
+        <LocalizedName languagecode="1033" description="Finance Module 5 - Finance Travel Claim Approval" />
+      </LocalizedNames>
+    </Workflow>
+    <Workflow WorkflowId="{017c0cf6-129f-ee11-a569-000d3aca2f47}" Name="Staff Expense Request Module 3 - Finance Staff Expense Advance Approval">
+      <JsonFileName>/Workflows/StaffExpenseRequestModule3-FinanceStaffExpenseAdva-017C0CF6-129F-EE11-A569-000D3ACA2F47.json</JsonFileName>
+      <Type>1</Type>
+      <Subprocess>0</Subprocess>
+      <Category>5</Category>
+      <Mode>0</Mode>
+      <Scope>4</Scope>
+      <OnDemand>0</OnDemand>
+      <TriggerOnCreate>0</TriggerOnCreate>
+      <TriggerOnDelete>0</TriggerOnDelete>
+      <AsyncAutodelete>0</AsyncAutodelete>
+      <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+      <StateCode>1</StateCode>
+      <StatusCode>2</StatusCode>
+      <RunAs>1</RunAs>
+      <IsTransacted>1</IsTransacted>
+      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IsCustomizable>1</IsCustomizable>
+      <IsCustomProcessingStepAllowedForOtherPublishers>1</IsCustomProcessingStepAllowedForOtherPublishers>
+      <PrimaryEntity>none</PrimaryEntity>
+      <LocalizedNames>
+        <LocalizedName languagecode="1033" description="Staff Expense Request Module 3 - Finance Staff Expense Advance Approval" />
+      </LocalizedNames>
+    </Workflow>
+    <Workflow WorkflowId="{027c0cf6-129f-ee11-a569-000d3aca2f47}" Name="Finance Module 3 - Finance Travel Advance Approval">
+      <JsonFileName>/Workflows/FinanceModule3-FinanceTravelAdvanceApproval-027C0CF6-129F-EE11-A569-000D3ACA2F47.json</JsonFileName>
+      <Type>1</Type>
+      <Subprocess>0</Subprocess>
+      <Category>5</Category>
+      <Mode>0</Mode>
+      <Scope>4</Scope>
+      <OnDemand>0</OnDemand>
+      <TriggerOnCreate>0</TriggerOnCreate>
+      <TriggerOnDelete>0</TriggerOnDelete>
+      <AsyncAutodelete>0</AsyncAutodelete>
+      <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+      <StateCode>1</StateCode>
+      <StatusCode>2</StatusCode>
+      <RunAs>1</RunAs>
+      <IsTransacted>1</IsTransacted>
+      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IsCustomizable>1</IsCustomizable>
+      <IsCustomProcessingStepAllowedForOtherPublishers>1</IsCustomProcessingStepAllowedForOtherPublishers>
+      <PrimaryEntity>none</PrimaryEntity>
+      <LocalizedNames>
+        <LocalizedName languagecode="1033" description="Finance Module 3 - Finance Travel Advance Approval" />
+      </LocalizedNames>
+    </Workflow>
+    <Workflow WorkflowId="{037c0cf6-129f-ee11-a569-000d3aca2f47}" Name="Staff Expense Request Module 4 - Finance Staff Claim Approval">
+      <JsonFileName>/Workflows/StaffExpenseRequestModule4-FinanceStaffClaimApprov-037C0CF6-129F-EE11-A569-000D3ACA2F47.json</JsonFileName>
+      <Type>1</Type>
+      <Subprocess>0</Subprocess>
+      <Category>5</Category>
+      <Mode>0</Mode>
+      <Scope>4</Scope>
+      <OnDemand>0</OnDemand>
+      <TriggerOnCreate>0</TriggerOnCreate>
+      <TriggerOnDelete>0</TriggerOnDelete>
+      <AsyncAutodelete>0</AsyncAutodelete>
+      <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+      <StateCode>1</StateCode>
+      <StatusCode>2</StatusCode>
+      <RunAs>1</RunAs>
+      <IsTransacted>1</IsTransacted>
+      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IsCustomizable>1</IsCustomizable>
+      <IsCustomProcessingStepAllowedForOtherPublishers>1</IsCustomProcessingStepAllowedForOtherPublishers>
+      <PrimaryEntity>none</PrimaryEntity>
+      <LocalizedNames>
+        <LocalizedName languagecode="1033" description="Staff Expense Request Module 4 - Finance Staff Claim Approval" />
+      </LocalizedNames>
+    </Workflow>
+    <Workflow WorkflowId="{7d7c0cf6-129f-ee11-a569-000d3aca2f47}" Name="Finance Module 4 -  Travel Claim">
+      <JsonFileName>/Workflows/FinanceModule4-TravelClaim-7D7C0CF6-129F-EE11-A569-000D3ACA2F47.json</JsonFileName>
+      <Type>1</Type>
+      <Subprocess>0</Subprocess>
+      <Category>5</Category>
+      <Mode>0</Mode>
+      <Scope>4</Scope>
+      <OnDemand>0</OnDemand>
+      <TriggerOnCreate>0</TriggerOnCreate>
+      <TriggerOnDelete>0</TriggerOnDelete>
+      <AsyncAutodelete>0</AsyncAutodelete>
+      <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+      <StateCode>1</StateCode>
+      <StatusCode>2</StatusCode>
+      <RunAs>1</RunAs>
+      <IsTransacted>1</IsTransacted>
+      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IsCustomizable>1</IsCustomizable>
+      <IsCustomProcessingStepAllowedForOtherPublishers>1</IsCustomProcessingStepAllowedForOtherPublishers>
+      <PrimaryEntity>none</PrimaryEntity>
+      <LocalizedNames>
+        <LocalizedName languagecode="1033" description="Finance Module 4 -  Travel Claim" />
+      </LocalizedNames>
+    </Workflow>
+    <Workflow WorkflowId="{7e7c0cf6-129f-ee11-a569-000d3aca2f47}" Name="Finance Module 2 -  Travel Budget">
+      <JsonFileName>/Workflows/FinanceModule2-TravelBudget-7E7C0CF6-129F-EE11-A569-000D3ACA2F47.json</JsonFileName>
+      <Type>1</Type>
+      <Subprocess>0</Subprocess>
+      <Category>5</Category>
+      <Mode>0</Mode>
+      <Scope>4</Scope>
+      <OnDemand>0</OnDemand>
+      <TriggerOnCreate>0</TriggerOnCreate>
+      <TriggerOnDelete>0</TriggerOnDelete>
+      <AsyncAutodelete>0</AsyncAutodelete>
+      <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+      <StateCode>1</StateCode>
+      <StatusCode>2</StatusCode>
+      <RunAs>1</RunAs>
+      <IsTransacted>1</IsTransacted>
+      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IsCustomizable>1</IsCustomizable>
+      <IsCustomProcessingStepAllowedForOtherPublishers>1</IsCustomProcessingStepAllowedForOtherPublishers>
+      <PrimaryEntity>none</PrimaryEntity>
+      <LocalizedNames>
+        <LocalizedName languagecode="1033" description="Finance Module 2 -  Travel Budget" />
+      </LocalizedNames>
+    </Workflow>
+    <Workflow WorkflowId="{cff939ca-139f-ee11-a569-000d3aca2f47}" Name="Staff Expense Request Module 2 - Expense Claim Request">
+      <JsonFileName>/Workflows/StaffExpenseRequestModule2-ExpenseClaimRequest-CFF939CA-139F-EE11-A569-000D3ACA2F47.json</JsonFileName>
+      <Type>1</Type>
+      <Subprocess>0</Subprocess>
+      <Category>5</Category>
+      <Mode>0</Mode>
+      <Scope>4</Scope>
+      <OnDemand>0</OnDemand>
+      <TriggerOnCreate>0</TriggerOnCreate>
+      <TriggerOnDelete>0</TriggerOnDelete>
+      <AsyncAutodelete>0</AsyncAutodelete>
+      <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+      <StateCode>1</StateCode>
+      <StatusCode>2</StatusCode>
+      <RunAs>1</RunAs>
+      <IsTransacted>1</IsTransacted>
+      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IsCustomizable>1</IsCustomizable>
+      <IsCustomProcessingStepAllowedForOtherPublishers>1</IsCustomProcessingStepAllowedForOtherPublishers>
+      <PrimaryEntity>none</PrimaryEntity>
+      <LocalizedNames>
+        <LocalizedName languagecode="1033" description="Staff Expense Request Module 2 - Expense Claim Request" />
+      </LocalizedNames>
+    </Workflow>
+    <Workflow WorkflowId="{d0f939ca-139f-ee11-a569-000d3aca2f47}" Name="Staff Expense Request Module 1 - Advance Request">
+      <JsonFileName>/Workflows/StaffExpenseRequestModule1-AdvanceRequest-D0F939CA-139F-EE11-A569-000D3ACA2F47.json</JsonFileName>
+      <Type>1</Type>
+      <Subprocess>0</Subprocess>
+      <Category>5</Category>
+      <Mode>0</Mode>
+      <Scope>4</Scope>
+      <OnDemand>0</OnDemand>
+      <TriggerOnCreate>0</TriggerOnCreate>
+      <TriggerOnDelete>0</TriggerOnDelete>
+      <AsyncAutodelete>0</AsyncAutodelete>
+      <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+      <StateCode>1</StateCode>
+      <StatusCode>2</StatusCode>
+      <RunAs>1</RunAs>
+      <IsTransacted>1</IsTransacted>
+      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IsCustomizable>1</IsCustomizable>
+      <IsCustomProcessingStepAllowedForOtherPublishers>1</IsCustomProcessingStepAllowedForOtherPublishers>
+      <PrimaryEntity>none</PrimaryEntity>
+      <LocalizedNames>
+        <LocalizedName languagecode="1033" description="Staff Expense Request Module 1 - Advance Request" />
+      </LocalizedNames>
+    </Workflow>
+    <Workflow WorkflowId="{8e817724-b117-ef11-840a-000d3af255a3}" Name="Finance Module 2 - Receive PM Advance Approval">
+      <JsonFileName>/Workflows/FinanceModule2-ReceivePMAdvanceApproval-8E817724-B117-EF11-840A-000D3AF255A3.json</JsonFileName>
+      <Type>1</Type>
+      <Subprocess>0</Subprocess>
+      <Category>5</Category>
+      <Mode>0</Mode>
+      <Scope>4</Scope>
+      <OnDemand>0</OnDemand>
+      <TriggerOnCreate>0</TriggerOnCreate>
+      <TriggerOnDelete>0</TriggerOnDelete>
+      <AsyncAutodelete>0</AsyncAutodelete>
+      <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+      <StateCode>1</StateCode>
+      <StatusCode>2</StatusCode>
+      <RunAs>1</RunAs>
+      <IsTransacted>1</IsTransacted>
+      <IntroducedVersion>1.0.0.4</IntroducedVersion>
+      <IsCustomizable>1</IsCustomizable>
+      <IsCustomProcessingStepAllowedForOtherPublishers>1</IsCustomProcessingStepAllowedForOtherPublishers>
+      <PrimaryEntity>none</PrimaryEntity>
+      <LocalizedNames>
+        <LocalizedName languagecode="1033" description="Finance Module 2 - Receive PM Advance Approval" />
+      </LocalizedNames>
+    </Workflow>
+    <Workflow WorkflowId="{4a9004b6-b217-ef11-840a-000d3af255a3}" Name="Finance Module 4 - Receive PM Claim Approval">
+      <JsonFileName>/Workflows/FinanceModule4-ReceivePMClaimApproval-4A9004B6-B217-EF11-840A-000D3AF255A3.json</JsonFileName>
+      <Type>1</Type>
+      <Subprocess>0</Subprocess>
+      <Category>5</Category>
+      <Mode>0</Mode>
+      <Scope>4</Scope>
+      <OnDemand>0</OnDemand>
+      <TriggerOnCreate>0</TriggerOnCreate>
+      <TriggerOnDelete>0</TriggerOnDelete>
+      <AsyncAutodelete>0</AsyncAutodelete>
+      <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+      <StateCode>1</StateCode>
+      <StatusCode>2</StatusCode>
+      <RunAs>1</RunAs>
+      <IsTransacted>1</IsTransacted>
+      <IntroducedVersion>1.0</IntroducedVersion>
+      <IsCustomizable>1</IsCustomizable>
+      <IsCustomProcessingStepAllowedForOtherPublishers>1</IsCustomProcessingStepAllowedForOtherPublishers>
+      <PrimaryEntity>none</PrimaryEntity>
+      <LocalizedNames>
+        <LocalizedName languagecode="1033" description="Finance Module 4 - Receive PM Claim Approval" />
+      </LocalizedNames>
+    </Workflow>
+    <Workflow WorkflowId="{05688533-4a19-ef11-840a-000d3af255a3}" Name="Staff Expense Request Module 1 - PM Advance Request Approval">
+      <JsonFileName>/Workflows/StaffExpenseRequestModule1-PMAdvanceRequestApprova-05688533-4A19-EF11-840A-000D3AF255A3.json</JsonFileName>
+      <Type>1</Type>
+      <Subprocess>0</Subprocess>
+      <Category>5</Category>
+      <Mode>0</Mode>
+      <Scope>4</Scope>
+      <OnDemand>0</OnDemand>
+      <TriggerOnCreate>0</TriggerOnCreate>
+      <TriggerOnDelete>0</TriggerOnDelete>
+      <AsyncAutodelete>0</AsyncAutodelete>
+      <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+      <StateCode>1</StateCode>
+      <StatusCode>2</StatusCode>
+      <RunAs>1</RunAs>
+      <IsTransacted>1</IsTransacted>
+      <IntroducedVersion>1.0.0.4</IntroducedVersion>
+      <IsCustomizable>1</IsCustomizable>
+      <IsCustomProcessingStepAllowedForOtherPublishers>1</IsCustomProcessingStepAllowedForOtherPublishers>
+      <PrimaryEntity>none</PrimaryEntity>
+      <LocalizedNames>
+        <LocalizedName languagecode="1033" description="Staff Expense Request Module 1 - PM Advance Request Approval" />
+      </LocalizedNames>
+    </Workflow>
+    <Workflow WorkflowId="{0a92e6fe-8919-ef11-840a-000d3af255a3}" Name="Staff Expense Request Module 2 - PM Expense Claim Approvals">
+      <JsonFileName>/Workflows/StaffExpenseRequestModule2-PMExpenseClaimApprovals-0A92E6FE-8919-EF11-840A-000D3AF255A3.json</JsonFileName>
+      <Type>1</Type>
+      <Subprocess>0</Subprocess>
+      <Category>5</Category>
+      <Mode>0</Mode>
+      <Scope>4</Scope>
+      <OnDemand>0</OnDemand>
+      <TriggerOnCreate>0</TriggerOnCreate>
+      <TriggerOnDelete>0</TriggerOnDelete>
+      <AsyncAutodelete>0</AsyncAutodelete>
+      <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+      <StateCode>1</StateCode>
+      <StatusCode>2</StatusCode>
+      <RunAs>1</RunAs>
+      <IsTransacted>1</IsTransacted>
+      <IntroducedVersion>1.0.0.4</IntroducedVersion>
+      <IsCustomizable>1</IsCustomizable>
+      <IsCustomProcessingStepAllowedForOtherPublishers>1</IsCustomProcessingStepAllowedForOtherPublishers>
+      <PrimaryEntity>none</PrimaryEntity>
+      <LocalizedNames>
+        <LocalizedName languagecode="1033" description="Staff Expense Request Module 2 - PM Expense Claim Approvals" />
+      </LocalizedNames>
+    </Workflow>
+    <Workflow WorkflowId="{c92dc932-8012-ef11-9f89-000d3af255a3}" Name="Submit_Staff_Request">
+      <JsonFileName>/Workflows/Submit_Staff_Request-C92DC932-8012-EF11-9F89-000D3AF255A3.json</JsonFileName>
+      <Type>1</Type>
+      <Subprocess>0</Subprocess>
+      <Category>5</Category>
+      <Mode>0</Mode>
+      <Scope>4</Scope>
+      <OnDemand>0</OnDemand>
+      <TriggerOnCreate>0</TriggerOnCreate>
+      <TriggerOnDelete>0</TriggerOnDelete>
+      <AsyncAutodelete>0</AsyncAutodelete>
+      <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+      <StateCode>1</StateCode>
+      <StatusCode>2</StatusCode>
+      <RunAs>1</RunAs>
+      <IsTransacted>1</IsTransacted>
+      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IsCustomizable>1</IsCustomizable>
+      <IsCustomProcessingStepAllowedForOtherPublishers>1</IsCustomProcessingStepAllowedForOtherPublishers>
+      <PrimaryEntity>none</PrimaryEntity>
+      <LocalizedNames>
+        <LocalizedName languagecode="1033" description="Submit_Staff_Request" />
+      </LocalizedNames>
+    </Workflow>
+    <Workflow WorkflowId="{fb8102f5-8f12-ef11-9f89-000d3af255a3}" Name="Travel_Request_PM_Review">
+      <JsonFileName>/Workflows/Travel_Request_PM_Review-FB8102F5-8F12-EF11-9F89-000D3AF255A3.json</JsonFileName>
+      <Type>1</Type>
+      <Subprocess>0</Subprocess>
+      <Category>5</Category>
+      <Mode>0</Mode>
+      <Scope>4</Scope>
+      <OnDemand>0</OnDemand>
+      <TriggerOnCreate>0</TriggerOnCreate>
+      <TriggerOnDelete>0</TriggerOnDelete>
+      <AsyncAutodelete>0</AsyncAutodelete>
+      <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+      <StateCode>1</StateCode>
+      <StatusCode>2</StatusCode>
+      <RunAs>1</RunAs>
+      <IsTransacted>1</IsTransacted>
+      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IsCustomizable>1</IsCustomizable>
+      <IsCustomProcessingStepAllowedForOtherPublishers>1</IsCustomProcessingStepAllowedForOtherPublishers>
+      <PrimaryEntity>none</PrimaryEntity>
+      <LocalizedNames>
+        <LocalizedName languagecode="1033" description="Travel_Request_PM_Review" />
+      </LocalizedNames>
+    </Workflow>
+    <Workflow WorkflowId="{cbf017f8-6bfd-ee11-9f89-000d3af2a944}" Name="SubmitTravelRequest" Description="Add a new items into a SharePoint list and then send an email when a button or link in Power Apps is selected.">
+      <JsonFileName>/Workflows/SubmitTravelRequest-CBF017F8-6BFD-EE11-9F89-000D3AF2A944.json</JsonFileName>
+      <Type>1</Type>
+      <Subprocess>0</Subprocess>
+      <Category>5</Category>
+      <Mode>0</Mode>
+      <Scope>4</Scope>
+      <OnDemand>0</OnDemand>
+      <TriggerOnCreate>0</TriggerOnCreate>
+      <TriggerOnDelete>0</TriggerOnDelete>
+      <AsyncAutodelete>0</AsyncAutodelete>
+      <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+      <StateCode>1</StateCode>
+      <StatusCode>2</StatusCode>
+      <RunAs>1</RunAs>
+      <IsTransacted>1</IsTransacted>
+      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IsCustomizable>1</IsCustomizable>
+      <IsCustomProcessingStepAllowedForOtherPublishers>1</IsCustomProcessingStepAllowedForOtherPublishers>
+      <PrimaryEntity>none</PrimaryEntity>
+      <LocalizedNames>
+        <LocalizedName languagecode="1033" description="SubmitTravelRequest" />
+      </LocalizedNames>
+      <Descriptions>
+        <Description languagecode="1033" description="Add a new items into a SharePoint list and then send an email when a button or link in Power Apps is selected." />
+      </Descriptions>
+    </Workflow>
+    <Workflow WorkflowId="{54803dbd-ac0e-ef11-9f89-000d3af2a944}" Name="Receive_Travel_Request_Status">
+      <JsonFileName>/Workflows/Receive_Travel_Request_Status-54803DBD-AC0E-EF11-9F89-000D3AF2A944.json</JsonFileName>
+      <Type>1</Type>
+      <Subprocess>0</Subprocess>
+      <Category>5</Category>
+      <Mode>0</Mode>
+      <Scope>4</Scope>
+      <OnDemand>0</OnDemand>
+      <TriggerOnCreate>0</TriggerOnCreate>
+      <TriggerOnDelete>0</TriggerOnDelete>
+      <AsyncAutodelete>0</AsyncAutodelete>
+      <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+      <StateCode>1</StateCode>
+      <StatusCode>2</StatusCode>
+      <RunAs>1</RunAs>
+      <IsTransacted>1</IsTransacted>
+      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IsCustomizable>1</IsCustomizable>
+      <IsCustomProcessingStepAllowedForOtherPublishers>1</IsCustomProcessingStepAllowedForOtherPublishers>
+      <PrimaryEntity>none</PrimaryEntity>
+      <LocalizedNames>
+        <LocalizedName languagecode="1033" description="Receive_Travel_Request_Status" />
+      </LocalizedNames>
+    </Workflow>
+    <Workflow WorkflowId="{bf8e6bc3-d22f-ef11-8e4e-002248d5b646}" Name="Finance Module 3 - ED Travel Advance Approval">
+      <JsonFileName>/Workflows/FinanceModule3-EDTravelAdvanceApproval-BF8E6BC3-D22F-EF11-8E4E-002248D5B646.json</JsonFileName>
+      <Type>1</Type>
+      <Subprocess>0</Subprocess>
+      <Category>5</Category>
+      <Mode>0</Mode>
+      <Scope>4</Scope>
+      <OnDemand>0</OnDemand>
+      <TriggerOnCreate>0</TriggerOnCreate>
+      <TriggerOnDelete>0</TriggerOnDelete>
+      <AsyncAutodelete>0</AsyncAutodelete>
+      <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+      <StateCode>1</StateCode>
+      <StatusCode>2</StatusCode>
+      <RunAs>1</RunAs>
+      <IsTransacted>1</IsTransacted>
+      <IntroducedVersion>1.0.0.17</IntroducedVersion>
+      <IsCustomizable>1</IsCustomizable>
+      <IsCustomProcessingStepAllowedForOtherPublishers>1</IsCustomProcessingStepAllowedForOtherPublishers>
+      <PrimaryEntity>none</PrimaryEntity>
+      <LocalizedNames>
+        <LocalizedName languagecode="1033" description="Finance Module 3 - ED Travel Advance Approval" />
+      </LocalizedNames>
+    </Workflow>
+    <Workflow WorkflowId="{63a8a94b-0932-ef11-8e4e-002248d5b646}" Name="Finance Module 5 - ED Travel Claim Approval">
+      <JsonFileName>/Workflows/FinanceModule5-EDTravelClaimApproval-63A8A94B-0932-EF11-8E4E-002248D5B646.json</JsonFileName>
+      <Type>1</Type>
+      <Subprocess>0</Subprocess>
+      <Category>5</Category>
+      <Mode>0</Mode>
+      <Scope>4</Scope>
+      <OnDemand>0</OnDemand>
+      <TriggerOnCreate>0</TriggerOnCreate>
+      <TriggerOnDelete>0</TriggerOnDelete>
+      <AsyncAutodelete>0</AsyncAutodelete>
+      <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+      <StateCode>1</StateCode>
+      <StatusCode>2</StatusCode>
+      <RunAs>1</RunAs>
+      <IsTransacted>1</IsTransacted>
+      <IntroducedVersion>1.0.0.17</IntroducedVersion>
+      <IsCustomizable>1</IsCustomizable>
+      <IsCustomProcessingStepAllowedForOtherPublishers>1</IsCustomProcessingStepAllowedForOtherPublishers>
+      <PrimaryEntity>none</PrimaryEntity>
+      <LocalizedNames>
+        <LocalizedName languagecode="1033" description="Finance Module 5 - ED Travel Claim Approval" />
+      </LocalizedNames>
+    </Workflow>
+    <Workflow WorkflowId="{c0c59cab-7b32-ef11-8e4e-002248d5b646}" Name="Staff Expense Request Module 3 - ED Advance Approval">
+      <JsonFileName>/Workflows/StaffExpenseRequestModule3-EDAdvanceApproval-C0C59CAB-7B32-EF11-8E4E-002248D5B646.json</JsonFileName>
+      <Type>1</Type>
+      <Subprocess>0</Subprocess>
+      <Category>5</Category>
+      <Mode>0</Mode>
+      <Scope>4</Scope>
+      <OnDemand>0</OnDemand>
+      <TriggerOnCreate>0</TriggerOnCreate>
+      <TriggerOnDelete>0</TriggerOnDelete>
+      <AsyncAutodelete>0</AsyncAutodelete>
+      <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+      <StateCode>1</StateCode>
+      <StatusCode>2</StatusCode>
+      <RunAs>1</RunAs>
+      <IsTransacted>1</IsTransacted>
+      <IntroducedVersion>1.0.0.17</IntroducedVersion>
+      <IsCustomizable>1</IsCustomizable>
+      <IsCustomProcessingStepAllowedForOtherPublishers>1</IsCustomProcessingStepAllowedForOtherPublishers>
+      <PrimaryEntity>none</PrimaryEntity>
+      <LocalizedNames>
+        <LocalizedName languagecode="1033" description="Staff Expense Request Module 3 - ED Advance Approval" />
+      </LocalizedNames>
+    </Workflow>
+    <Workflow WorkflowId="{a037bb77-7c32-ef11-8e4e-002248d5b646}" Name="Staff Expense Request Module 4 - ED Claim Approval">
+      <JsonFileName>/Workflows/StaffExpenseRequestModule4-EDClaimApproval-A037BB77-7C32-EF11-8E4E-002248D5B646.json</JsonFileName>
+      <Type>1</Type>
+      <Subprocess>0</Subprocess>
+      <Category>5</Category>
+      <Mode>0</Mode>
+      <Scope>4</Scope>
+      <OnDemand>0</OnDemand>
+      <TriggerOnCreate>0</TriggerOnCreate>
+      <TriggerOnDelete>0</TriggerOnDelete>
+      <AsyncAutodelete>0</AsyncAutodelete>
+      <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+      <StateCode>1</StateCode>
+      <StatusCode>2</StatusCode>
+      <RunAs>1</RunAs>
+      <IsTransacted>1</IsTransacted>
+      <IntroducedVersion>1.0.0.17</IntroducedVersion>
+      <IsCustomizable>1</IsCustomizable>
+      <IsCustomProcessingStepAllowedForOtherPublishers>1</IsCustomProcessingStepAllowedForOtherPublishers>
+      <PrimaryEntity>none</PrimaryEntity>
+      <LocalizedNames>
+        <LocalizedName languagecode="1033" description="Staff Expense Request Module 4 - ED Claim Approval" />
+      </LocalizedNames>
+    </Workflow>
+  </Workflows>
+  <FieldSecurityProfiles></FieldSecurityProfiles>
+  <Templates />
+  <EntityMaps />
+  <EntityRelationships />
+  <OrganizationSettings />
+  <optionsets />
+  <CustomControls />
+  <EntityDataProviders />
+  <CanvasApps>
+    <CanvasApp>
+      <Name>washidev_apptravelrequest_e08e6</Name>
+      <AppVersion>2024-08-21T10:50:18Z</AppVersion>
+      <Status>Ready</Status>
+      <CreatedByClientVersion>3.24082.13.0</CreatedByClientVersion>
+      <MinClientVersion>3.24082.13.0</MinClientVersion>
+      <Tags>{"primaryDeviceWidth":"1366","primaryDeviceHeight":"768","supportsPortrait":"false","supportsLandscape":"true","primaryFormFactor":"Tablet","showStatusBar":"false","publisherVersion":"3.24082.13","minimumRequiredApiVersion":"2.2.0","hasComponent":"true","hasUnlockedComponent":"true","isUnifiedRootApp":"false","sienaVersion":"20240802T031254Z-3.24074.14.0"}</Tags>
+      <IsCdsUpgraded>0</IsCdsUpgraded>
+      <GalleryItemId xsi:nil="true"></GalleryItemId>
+      <BackgroundColor>rgba(129, 42, 141, 1)</BackgroundColor>
+      <DisplayName>App_TravelRequest</DisplayName>
+      <Description xsi:nil="true"></Description>
+      <CommitMessage xsi:nil="true"></CommitMessage>
+      <Publisher></Publisher>
+      <AuthorizationReferences>[]</AuthorizationReferences>
+      <ConnectionReferences>{"631c0fb0-c91e-4afb-8b11-cba5d6872f5e":{"id":"/providers/microsoft.powerapps/apis/shared_office365users","displayName":"Office 365 Users","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1702/1.0.1702.3810/office365users/icon.png","dataSources":["Office365Users"],"dependencies":[],"dependents":[],"parameterHints":{},"parameterHintsV2":{},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard"},"3e990f5f-a334-4e3e-960b-5ba326f81694":{"id":"/providers/microsoft.powerapps/apis/shared_planner","displayName":"Planner","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1680/1.0.1680.3652/planner/icon.png","dataSources":["Planner"],"dependencies":[],"dependents":[],"parameterHints":{},"parameterHintsV2":{},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard","actions":["ListMyPlansV2"]},"88440dcb-31dd-4475-b013-ba3ac5e68e51":{"id":"/providers/microsoft.powerapps/apis/shared_office365","displayName":"Office 365 Outlook","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1686/1.0.1686.3706/office365/icon.png","dataSources":["Office365"],"dependencies":[],"dependents":[],"parameterHints":{},"parameterHintsV2":{},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard"},"7492cf69-cc78-477d-9fc8-986387722984":{"id":"/providers/microsoft.powerapps/apis/shared_onenote","displayName":"OneNote (Business)","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1690/1.0.1690.3719/onenote/icon.png","dataSources":["OneNote(Business)"],"dependencies":[],"dependents":[],"parameterHints":{},"parameterHintsV2":{},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard"},"53bb4d70-02b5-49f1-974d-295bc6a00377":{"id":"/providers/microsoft.powerapps/apis/shared_sharepointonline","displayName":"SharePoint","iconUri":"https://connectoricons-prod.azureedge.net/u/jayawan/releases/v1.0.1697/1.0.1697.3786/sharepointonline/icon.png","dataSources":["Env_PM_ProjectList","Env_PM_ProjectAllocationList","Project Allocation List","Env_Employee_EmployeeDirectoryList","Travel Expense","Env_ExpenseRequestandClaim_TravelRequests","Env_ExpenseRequestandClaim_TravelExpense","Config List"],"dependencies":[],"dependents":[],"parameterHints":{},"parameterHintsV2":{},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{"https://washi.sharepoint.com/sites/pm_washidev_shared_sharepointonline_2686cdbdafda4cf4ae7b9689cdd3e12d":{"datasetOverride":{"name":"https://washi.sharepoint.com/sites/pm","environmentVariableName":"washidev_shared_sharepointonline_2686cdbdafda4cf4ae7b9689cdd3e12d"},"dataSources":{"Env_PM_ProjectList":{"tableName":"4683813b-3e7f-4440-8f85-6d950ad76e67","tableNameOverride":{"name":"4683813b-3e7f-4440-8f85-6d950ad76e67","environmentVariableName":"washidev_Env_PM_ProjectList"}},"Env_PM_ProjectAllocationList":{"tableName":"495b5fc1-e794-4784-93c2-520d00dce163","tableNameOverride":{"name":"495b5fc1-e794-4784-93c2-520d00dce163","environmentVariableName":"washidev_Env_PM_ProjectAllocationList"}}}},"https://washi.sharepoint.com/sites/Onboarding_washidev_shared_sharepointonline_a08ed9ffe49643c1b8b62c1f4ad991a9":{"datasetOverride":{"name":"https://washi.sharepoint.com/sites/Onboarding","environmentVariableName":"washidev_shared_sharepointonline_a08ed9ffe49643c1b8b62c1f4ad991a9"},"dataSources":{"Config List":{"tableName":"178c49bd-99db-4128-ad17-32b26ece24fc","tableNameOverride":{"name":"178c49bd-99db-4128-ad17-32b26ece24fc","environmentVariableName":"washidev_shared_sharepointonline_fa6a78bf88834bc9a355d6799bb911b4"}}}}},"apiTier":"Standard","actions":["providers/PowerPlatform.Governance/Operations/Read","providers/PowerPlatform.Governance/Operations/Write","providers/PowerPlatform.Governance/Operations/Delete"]},"658cb175-fc9f-4286-846f-3ea6fe949e07":{"id":"/providers/microsoft.powerapps/apis/shared_sharepointonline","displayName":"SharePoint","iconUri":"https://connectoricons-prod.azureedge.net/u/jayawan/releases/v1.0.1697/1.0.1697.3786/sharepointonline/icon.png","dataSources":["Env_ExpenseRequestandClaim_TravelRequests","Env_ExpenseRequestandClaim_TravelExpense"],"dependencies":[],"dependents":[],"parameterHints":{},"parameterHintsV2":{},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{"https://washi.sharepoint.com/sites/ExpenseRequestandClaims_washidev_shared_sharepointonline_3a3b4d9a13b84afa830db9ed77dbff4a":{"datasetOverride":{"name":"https://washi.sharepoint.com/sites/ExpenseRequestandClaims","environmentVariableName":"washidev_shared_sharepointonline_3a3b4d9a13b84afa830db9ed77dbff4a"},"dataSources":{"Env_ExpenseRequestandClaim_TravelRequests":{"tableName":"da661c2a-b63b-4c34-958a-fefcee564160","tableNameOverride":{"name":"b1c275b8-bcd7-46fa-bf70-3d582d18ab3c","environmentVariableName":"washidev_shared_sharepointonline_f86ed39c34284c45b78c36d4db24505b"}},"Env_ExpenseRequestandClaim_TravelExpense":{"tableName":"8882483e-962a-47ee-8718-fdcfb69313af","tableNameOverride":{"name":"961dfe5b-4028-4ec1-8678-2d6a9203be1e","environmentVariableName":"washidev_shared_sharepointonline_8dc27dd09a8c441e9c4990b9493cca28"}}}}},"apiTier":"Standard","actions":["providers/PowerPlatform.Governance/Operations/Read","providers/PowerPlatform.Governance/Operations/Write","providers/PowerPlatform.Governance/Operations/Delete"]},"fbed5e9d-4689-439f-820e-05a400ea4680":{"id":"/providers/microsoft.powerapps/apis/shared_sharepointonline","displayName":"SharePoint","iconUri":"https://connectoricons-prod.azureedge.net/u/jayawan/releases/v1.0.1697/1.0.1697.3786/sharepointonline/icon.png","dataSources":["Env_Employee_EmployeeDirectoryList"],"dependencies":[],"dependents":[],"parameterHints":{},"parameterHintsV2":{},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{"https://washi.sharepoint.com/sites/Employee_washidev_ENV_ED_Site":{"datasetOverride":{"name":"https://washi.sharepoint.com/sites/Employee","environmentVariableName":"washidev_ENV_ED_Site"},"dataSources":{"Env_Employee_EmployeeDirectoryList":{"tableName":"2c9f176b-dd10-4619-9e86-9a46fa907706","tableNameOverride":{"name":"2c9f176b-dd10-4619-9e86-9a46fa907706","environmentVariableName":"washidev_Env_Employee_EmployeeDirectory"}}}}},"apiTier":"Standard","actions":["providers/PowerPlatform.Governance/Operations/Read"]},"e42ad001-83e6-4dc6-8a26-66306a703e2a":{"id":"/providers/microsoft.powerapps/apis/shared_logicflows","displayName":"Logic flows","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1697/1.0.1697.3780/logicflows/icon.png","dataSources":["FinanceModule4-ReceivePMClaimApproval"],"dependencies":["aa0e2717-b01a-49d3-a255-63944b445326","db8460d7-a7c9-4a01-9a52-7b140ac31230"],"dependents":[],"parameterHints":{"workflowName":{"value":"837017e3-4c2c-40be-b183-8e7c96e31378"},"workflowEntityId":{"value":"4a9004b6-b217-ef11-840a-000d3af255a3"},"workflowDisplayName":{"value":"Finance Module 4 - Receive PM Claim Approval"},"aa0e2717-b01a-49d3-a255-63944b445326":{"value":"shared_sharepointonline_1"},"db8460d7-a7c9-4a01-9a52-7b140ac31230":{"value":"shared_office365"}},"parameterHintsV2":{"workflowName":{"value":"837017e3-4c2c-40be-b183-8e7c96e31378"},"workflowEntityId":{"value":"4a9004b6-b217-ef11-840a-000d3af255a3"},"workflowDisplayName":{"value":"Finance Module 4 - Receive PM Claim Approval"},"shared_sharepointonline_1":{"value":"aa0e2717-b01a-49d3-a255-63944b445326"},"shared_office365":{"value":"db8460d7-a7c9-4a01-9a52-7b140ac31230"}},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard","actions":["Run"]},"aa0e2717-b01a-49d3-a255-63944b445326":{"id":"/providers/microsoft.powerapps/apis/shared_sharepointonline","displayName":"SharePoint","iconUri":"https://connectoricons-prod.azureedge.net/u/jayawan/releases/v1.0.1697/1.0.1697.3786/sharepointonline/icon.png","dataSources":[],"dependencies":[],"dependents":["e42ad001-83e6-4dc6-8a26-66306a703e2a","dacb74de-34e4-451b-8213-0e28607da66a","5eb0c5c0-4db2-44d8-aac8-9020289cf411","e1046047-b365-4761-8b6b-b625d44493e7","07d3733c-81c3-42df-a391-deff1c625a0b","496bd087-e519-4375-ab5e-89b2ce69d65c","680cf192-cd67-45db-9125-79c04c20d754","4efc18f2-fd25-41c9-afe9-3d1181d9828d"],"parameterHints":{},"parameterHintsV2":{},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard"},"db8460d7-a7c9-4a01-9a52-7b140ac31230":{"id":"/providers/microsoft.powerapps/apis/shared_office365","displayName":"Office 365 Outlook","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1686/1.0.1686.3706/office365/icon.png","dataSources":[],"dependencies":[],"dependents":["e42ad001-83e6-4dc6-8a26-66306a703e2a","5eb0c5c0-4db2-44d8-aac8-9020289cf411","ca1e727e-5029-4eda-9b50-2ff3abfd09ae","e1046047-b365-4761-8b6b-b625d44493e7","07d3733c-81c3-42df-a391-deff1c625a0b","496bd087-e519-4375-ab5e-89b2ce69d65c","680cf192-cd67-45db-9125-79c04c20d754","4efc18f2-fd25-41c9-afe9-3d1181d9828d"],"parameterHints":{},"parameterHintsV2":{},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard"},"dacb74de-34e4-451b-8213-0e28607da66a":{"id":"/providers/microsoft.powerapps/apis/shared_logicflows","displayName":"Logic flows","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1697/1.0.1697.3780/logicflows/icon.png","dataSources":["FinanceModule3-EDTravelAdvanceApproval"],"dependencies":["aa0e2717-b01a-49d3-a255-63944b445326","d58648ce-5547-453d-8399-1137fc9f2733"],"dependents":[],"parameterHints":{"workflowName":{"value":"009e8a2c-7ad4-4354-93f5-2ffa8f7a38c2"},"workflowEntityId":{"value":"bf8e6bc3-d22f-ef11-8e4e-002248d5b646"},"workflowDisplayName":{"value":"Finance Module 3 - ED Travel Advance Approval"},"aa0e2717-b01a-49d3-a255-63944b445326":{"value":"shared_sharepointonline_2"},"d58648ce-5547-453d-8399-1137fc9f2733":{"value":"shared_office365_2"}},"parameterHintsV2":{"workflowName":{"value":"009e8a2c-7ad4-4354-93f5-2ffa8f7a38c2"},"workflowEntityId":{"value":"bf8e6bc3-d22f-ef11-8e4e-002248d5b646"},"workflowDisplayName":{"value":"Finance Module 3 - ED Travel Advance Approval"},"shared_sharepointonline_2":{"value":"aa0e2717-b01a-49d3-a255-63944b445326"},"shared_office365_2":{"value":"d58648ce-5547-453d-8399-1137fc9f2733"}},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard","actions":["Run"]},"d58648ce-5547-453d-8399-1137fc9f2733":{"id":"/providers/microsoft.powerapps/apis/shared_office365","displayName":"Office 365 Outlook","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1686/1.0.1686.3706/office365/icon.png","dataSources":[],"dependencies":[],"dependents":["dacb74de-34e4-451b-8213-0e28607da66a"],"parameterHints":{},"parameterHintsV2":{},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard"},"5eb0c5c0-4db2-44d8-aac8-9020289cf411":{"id":"/providers/microsoft.powerapps/apis/shared_logicflows","displayName":"Logic flows","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1697/1.0.1697.3780/logicflows/icon.png","dataSources":["FinanceModule5-EDTravelClaimApproval"],"dependencies":["aa0e2717-b01a-49d3-a255-63944b445326","db8460d7-a7c9-4a01-9a52-7b140ac31230"],"dependents":[],"parameterHints":{"workflowName":{"value":"801533c9-d9a3-47c9-9f08-ad50287a7ce5"},"workflowEntityId":{"value":"63a8a94b-0932-ef11-8e4e-002248d5b646"},"workflowDisplayName":{"value":"Finance Module 5 - ED Travel Claim Approval"},"aa0e2717-b01a-49d3-a255-63944b445326":{"value":"shared_sharepointonline"},"db8460d7-a7c9-4a01-9a52-7b140ac31230":{"value":"shared_office365_1"}},"parameterHintsV2":{"workflowName":{"value":"801533c9-d9a3-47c9-9f08-ad50287a7ce5"},"workflowEntityId":{"value":"63a8a94b-0932-ef11-8e4e-002248d5b646"},"workflowDisplayName":{"value":"Finance Module 5 - ED Travel Claim Approval"},"shared_sharepointonline":{"value":"aa0e2717-b01a-49d3-a255-63944b445326"},"shared_office365_1":{"value":"db8460d7-a7c9-4a01-9a52-7b140ac31230"}},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard","actions":["Run"]},"ca1e727e-5029-4eda-9b50-2ff3abfd09ae":{"id":"/providers/microsoft.powerapps/apis/shared_logicflows","displayName":"Logic flows","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1697/1.0.1697.3780/logicflows/icon.png","dataSources":["Send_or_Receive_Claim_or_Advance_Amount"],"dependencies":["db8460d7-a7c9-4a01-9a52-7b140ac31230","66fcde83-51db-4de4-b9ce-51bab8868842"],"dependents":[],"parameterHints":{"workflowName":{"value":"7ebfdaa2-254e-4496-9131-34536188820d"},"workflowEntityId":{"value":"1c73f2eb-6a42-ef11-a316-000d3a0a7dc2"},"workflowDisplayName":{"value":"Send_or_Receive_Claim_or_Advance_Amount"},"db8460d7-a7c9-4a01-9a52-7b140ac31230":{"value":"shared_office365_1"},"66fcde83-51db-4de4-b9ce-51bab8868842":{"value":"shared_office365users"}},"parameterHintsV2":{"workflowName":{"value":"7ebfdaa2-254e-4496-9131-34536188820d"},"workflowEntityId":{"value":"1c73f2eb-6a42-ef11-a316-000d3a0a7dc2"},"workflowDisplayName":{"value":"Send_or_Receive_Claim_or_Advance_Amount"},"shared_office365_1":{"value":"db8460d7-a7c9-4a01-9a52-7b140ac31230"},"shared_office365users":{"value":"66fcde83-51db-4de4-b9ce-51bab8868842"}},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard","actions":["Run"]},"66fcde83-51db-4de4-b9ce-51bab8868842":{"id":"/providers/microsoft.powerapps/apis/shared_office365users","displayName":"Office 365 Users","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1702/1.0.1702.3810/office365users/icon.png","dataSources":[],"dependencies":[],"dependents":["ca1e727e-5029-4eda-9b50-2ff3abfd09ae"],"parameterHints":{},"parameterHintsV2":{},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard"},"e1046047-b365-4761-8b6b-b625d44493e7":{"id":"/providers/microsoft.powerapps/apis/shared_logicflows","displayName":"Logic flows","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1697/1.0.1697.3780/logicflows/icon.png","dataSources":["SubmitTravelRequest"],"dependencies":["aa0e2717-b01a-49d3-a255-63944b445326","db8460d7-a7c9-4a01-9a52-7b140ac31230"],"dependents":[],"parameterHints":{"workflowName":{"value":"9ceab7a4-8156-4904-a28f-451f31cbd6cf"},"workflowEntityId":{"value":"cbf017f8-6bfd-ee11-9f89-000d3af2a944"},"workflowDisplayName":{"value":"SubmitTravelRequest"},"aa0e2717-b01a-49d3-a255-63944b445326":{"value":"shared_sharepointonline"},"db8460d7-a7c9-4a01-9a52-7b140ac31230":{"value":"shared_office365"}},"parameterHintsV2":{"workflowName":{"value":"9ceab7a4-8156-4904-a28f-451f31cbd6cf"},"workflowEntityId":{"value":"cbf017f8-6bfd-ee11-9f89-000d3af2a944"},"workflowDisplayName":{"value":"SubmitTravelRequest"},"shared_sharepointonline":{"value":"aa0e2717-b01a-49d3-a255-63944b445326"},"shared_office365":{"value":"db8460d7-a7c9-4a01-9a52-7b140ac31230"}},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard","actions":["Run"]},"07d3733c-81c3-42df-a391-deff1c625a0b":{"id":"/providers/microsoft.powerapps/apis/shared_logicflows","displayName":"Logic flows","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1697/1.0.1697.3780/logicflows/icon.png","dataSources":["FinanceModule4-TravelClaim"],"dependencies":["aa0e2717-b01a-49d3-a255-63944b445326","db8460d7-a7c9-4a01-9a52-7b140ac31230"],"dependents":[],"parameterHints":{"workflowName":{"value":"a07e8c31-f5ba-499f-9380-23b3a4b8f462"},"workflowEntityId":{"value":"7d7c0cf6-129f-ee11-a569-000d3aca2f47"},"workflowDisplayName":{"value":"Finance Module 4 -  Travel Claim"},"aa0e2717-b01a-49d3-a255-63944b445326":{"value":"shared_sharepointonline"},"db8460d7-a7c9-4a01-9a52-7b140ac31230":{"value":"shared_office365"}},"parameterHintsV2":{"workflowName":{"value":"a07e8c31-f5ba-499f-9380-23b3a4b8f462"},"workflowEntityId":{"value":"7d7c0cf6-129f-ee11-a569-000d3aca2f47"},"workflowDisplayName":{"value":"Finance Module 4 -  Travel Claim"},"shared_sharepointonline":{"value":"aa0e2717-b01a-49d3-a255-63944b445326"},"shared_office365":{"value":"db8460d7-a7c9-4a01-9a52-7b140ac31230"}},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard","actions":["Run"]},"496bd087-e519-4375-ab5e-89b2ce69d65c":{"id":"/providers/microsoft.powerapps/apis/shared_logicflows","displayName":"Logic flows","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1697/1.0.1697.3780/logicflows/icon.png","dataSources":["FinanceModule2-TravelBudget"],"dependencies":["aa0e2717-b01a-49d3-a255-63944b445326","db8460d7-a7c9-4a01-9a52-7b140ac31230"],"dependents":[],"parameterHints":{"workflowName":{"value":"dc915d3f-1c5e-4702-9636-0c00ab045c2d"},"workflowEntityId":{"value":"7e7c0cf6-129f-ee11-a569-000d3aca2f47"},"workflowDisplayName":{"value":"Finance Module 2 -  Travel Budget"},"aa0e2717-b01a-49d3-a255-63944b445326":{"value":"shared_sharepointonline_2"},"db8460d7-a7c9-4a01-9a52-7b140ac31230":{"value":"shared_office365"}},"parameterHintsV2":{"workflowName":{"value":"dc915d3f-1c5e-4702-9636-0c00ab045c2d"},"workflowEntityId":{"value":"7e7c0cf6-129f-ee11-a569-000d3aca2f47"},"workflowDisplayName":{"value":"Finance Module 2 -  Travel Budget"},"shared_sharepointonline_2":{"value":"aa0e2717-b01a-49d3-a255-63944b445326"},"shared_office365":{"value":"db8460d7-a7c9-4a01-9a52-7b140ac31230"}},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard","actions":["Run"]},"680cf192-cd67-45db-9125-79c04c20d754":{"id":"/providers/microsoft.powerapps/apis/shared_logicflows","displayName":"Logic flows","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1697/1.0.1697.3780/logicflows/icon.png","dataSources":["Receive_Travel_Request_Status"],"dependencies":["aa0e2717-b01a-49d3-a255-63944b445326","db8460d7-a7c9-4a01-9a52-7b140ac31230"],"dependents":[],"parameterHints":{"workflowName":{"value":"3736751f-6d01-47d2-be2d-756c910b29dd"},"workflowEntityId":{"value":"54803dbd-ac0e-ef11-9f89-000d3af2a944"},"workflowDisplayName":{"value":"Receive_Travel_Request_Status"},"aa0e2717-b01a-49d3-a255-63944b445326":{"value":"shared_sharepointonline"},"db8460d7-a7c9-4a01-9a52-7b140ac31230":{"value":"shared_office365_1"}},"parameterHintsV2":{"workflowName":{"value":"3736751f-6d01-47d2-be2d-756c910b29dd"},"workflowEntityId":{"value":"54803dbd-ac0e-ef11-9f89-000d3af2a944"},"workflowDisplayName":{"value":"Receive_Travel_Request_Status"},"shared_sharepointonline":{"value":"aa0e2717-b01a-49d3-a255-63944b445326"},"shared_office365_1":{"value":"db8460d7-a7c9-4a01-9a52-7b140ac31230"}},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard","actions":["Run"]},"4efc18f2-fd25-41c9-afe9-3d1181d9828d":{"id":"/providers/microsoft.powerapps/apis/shared_logicflows","displayName":"Logic flows","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1697/1.0.1697.3780/logicflows/icon.png","dataSources":["FinanceModule2-ReceivePMAdvanceApproval"],"dependencies":["aa0e2717-b01a-49d3-a255-63944b445326","db8460d7-a7c9-4a01-9a52-7b140ac31230"],"dependents":[],"parameterHints":{"workflowName":{"value":"f637e956-f1cd-4a13-b00c-7dbff1bec946"},"workflowEntityId":{"value":"8e817724-b117-ef11-840a-000d3af255a3"},"workflowDisplayName":{"value":"Finance Module 2 - Receive PM Advance Approval"},"aa0e2717-b01a-49d3-a255-63944b445326":{"value":"shared_sharepointonline_1"},"db8460d7-a7c9-4a01-9a52-7b140ac31230":{"value":"shared_office365"}},"parameterHintsV2":{"workflowName":{"value":"f637e956-f1cd-4a13-b00c-7dbff1bec946"},"workflowEntityId":{"value":"8e817724-b117-ef11-840a-000d3af255a3"},"workflowDisplayName":{"value":"Finance Module 2 - Receive PM Advance Approval"},"shared_sharepointonline_1":{"value":"aa0e2717-b01a-49d3-a255-63944b445326"},"shared_office365":{"value":"db8460d7-a7c9-4a01-9a52-7b140ac31230"}},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard","actions":["Run"]}}</ConnectionReferences>
+      <DatabaseReferences>{}</DatabaseReferences>
+      <AppComponents>[]</AppComponents>
+      <AppComponentDependencies>[]</AppComponentDependencies>
+      <CanConsumeAppPass>1</CanConsumeAppPass>
+      <CanvasAppType>0</CanvasAppType>
+      <BypassConsent>0</BypassConsent>
+      <AdminControlBypassConsent>0</AdminControlBypassConsent>
+      <EmbeddedApp xsi:nil="true"></EmbeddedApp>
+      <IntroducedVersion>1.0</IntroducedVersion>
+      <CdsDependencies>{"cdsdependencies":[{"dependencyid":"4a9004b6-b217-ef11-840a-000d3af255a3","componenttype":29,"componenttypeplatformname":"Workflow"},{"dependencyid":"bf8e6bc3-d22f-ef11-8e4e-002248d5b646","componenttype":29,"componenttypeplatformname":"Workflow"},{"dependencyid":"63a8a94b-0932-ef11-8e4e-002248d5b646","componenttype":29,"componenttypeplatformname":"Workflow"},{"dependencyid":"1c73f2eb-6a42-ef11-a316-000d3a0a7dc2","componenttype":29,"componenttypeplatformname":"Workflow"},{"dependencyid":"cbf017f8-6bfd-ee11-9f89-000d3af2a944","componenttype":29,"componenttypeplatformname":"Workflow"},{"dependencyid":"7d7c0cf6-129f-ee11-a569-000d3aca2f47","componenttype":29,"componenttypeplatformname":"Workflow"},{"dependencyid":"7e7c0cf6-129f-ee11-a569-000d3aca2f47","componenttype":29,"componenttypeplatformname":"Workflow"},{"dependencyid":"54803dbd-ac0e-ef11-9f89-000d3af2a944","componenttype":29,"componenttypeplatformname":"Workflow"},{"dependencyid":"8e817724-b117-ef11-840a-000d3af255a3","componenttype":29,"componenttypeplatformname":"Workflow"},{"logicalname":"washidev_shared_sharepointonline_2686cdbdafda4cf4ae7b9689cdd3e12d","componenttype":380,"componenttypeplatformname":"EnvironmentVariableDefinition"},{"logicalname":"washidev_shared_sharepointonline_a08ed9ffe49643c1b8b62c1f4ad991a9","componenttype":380,"componenttypeplatformname":"EnvironmentVariableDefinition"},{"logicalname":"washidev_Env_PM_ProjectList","componenttype":380,"componenttypeplatformname":"EnvironmentVariableDefinition"},{"logicalname":"washidev_Env_PM_ProjectAllocationList","componenttype":380,"componenttypeplatformname":"EnvironmentVariableDefinition"},{"logicalname":"washidev_shared_sharepointonline_fa6a78bf88834bc9a355d6799bb911b4","componenttype":380,"componenttypeplatformname":"EnvironmentVariableDefinition"},{"logicalname":"washidev_shared_sharepointonline_3a3b4d9a13b84afa830db9ed77dbff4a","componenttype":380,"componenttypeplatformname":"EnvironmentVariableDefinition"},{"logicalname":"washidev_shared_sharepointonline_f86ed39c34284c45b78c36d4db24505b","componenttype":380,"componenttypeplatformname":"EnvironmentVariableDefinition"},{"logicalname":"washidev_shared_sharepointonline_8dc27dd09a8c441e9c4990b9493cca28","componenttype":380,"componenttypeplatformname":"EnvironmentVariableDefinition"},{"logicalname":"washidev_ENV_ED_Site","componenttype":380,"componenttypeplatformname":"EnvironmentVariableDefinition"},{"logicalname":"washidev_Env_Employee_EmployeeDirectory","componenttype":380,"componenttypeplatformname":"EnvironmentVariableDefinition"}]}</CdsDependencies>
+      <IsCustomizable>1</IsCustomizable>
+      <BackgroundImageUri>/CanvasApps/washidev_apptravelrequest_e08e6_BackgroundImageUri</BackgroundImageUri>
+      <DocumentUri>/CanvasApps/washidev_apptravelrequest_e08e6_DocumentUri.msapp</DocumentUri>
+      <AdditionalUris>
+        <AdditionalUri>/CanvasApps/washidev_apptravelrequest_e08e6_AdditionalUris0_identity.json</AdditionalUri>
+      </AdditionalUris>
+    </CanvasApp>
+    <CanvasApp>
+      <Name>washidev_financeteamapprovals_672eb</Name>
+      <AppVersion>2024-08-02T03:12:55Z</AppVersion>
+      <Status>Ready</Status>
+      <CreatedByClientVersion>3.24074.14.0</CreatedByClientVersion>
+      <MinClientVersion>3.24074.14.0</MinClientVersion>
+      <Tags>{"primaryDeviceWidth":"1366","primaryDeviceHeight":"768","supportsPortrait":"true","supportsLandscape":"true","primaryFormFactor":"Tablet","publisherVersion":"3.24074.14","minimumRequiredApiVersion":"2.2.0","hasComponent":"false","hasUnlockedComponent":"false","isUnifiedRootApp":"false","sienaVersion":"20240715T115922Z-3.24071.7.0","showStatusBar":"false","offlineLargeFilesSupport":"false"}</Tags>
+      <IsCdsUpgraded>0</IsCdsUpgraded>
+      <GalleryItemId xsi:nil="true"></GalleryItemId>
+      <BackgroundColor>RGBA(0,176,240,1)</BackgroundColor>
+      <DisplayName>Finance Team Approvals</DisplayName>
+      <Description>Updated screens</Description>
+      <CommitMessage></CommitMessage>
+      <Publisher></Publisher>
+      <AuthorizationReferences>[]</AuthorizationReferences>
+      <ConnectionReferences>{"5207e754-b1f7-4097-b6c9-cccd3ea1841a":{"id":"/providers/microsoft.powerapps/apis/shared_sharepointonline","displayName":"SharePoint","iconUri":"https://connectoricons-prod.azureedge.net/u/jayawan/releases/v1.0.1697/1.0.1697.3786/sharepointonline/icon.png","dataSources":["Staff Expense","Staff Expense Advance Request","Travel Expense","Travel Requests","Env_ExpenseRequestandClaim_TravelExpense","Env_ExpenseRequestandClaim_StaffTravelRequests","Env_ExpenseRequestClaim_StaffExpense","Env_ExpenseRequestandClaim_TravelRequests","Env_ExpenseRequestandClaim_BankDetails"],"dependencies":[],"dependents":[],"parameterHints":{},"parameterHintsV2":{},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{"https://washi.sharepoint.com/sites/ExpenseRequestandClaims":{"dataSources":{"Staff Expense":{"tableName":"a3471f69-5f5a-42f7-a15b-9196cc2605bf"},"Staff Expense Advance Request":{"tableName":"c45e89b1-8df6-4c07-8869-129af8a50383"},"Travel Expense":{"tableName":"8882483e-962a-47ee-8718-fdcfb69313af"},"Travel Requests":{"tableName":"da661c2a-b63b-4c34-958a-fefcee564160"}}},"https://washi.sharepoint.com/sites/ExpenseRequestandClaims_washidev_shared_sharepointonline_d253147aff5d488abcec1e6dbbcf4135":{"datasetOverride":{"name":"https://washi.sharepoint.com/sites/ExpenseRequestandClaims","environmentVariableName":"washidev_shared_sharepointonline_d253147aff5d488abcec1e6dbbcf4135"},"dataSources":{"Env_ExpenseRequestandClaim_TravelExpense":{"tableName":"8882483e-962a-47ee-8718-fdcfb69313af","tableNameOverride":{"name":"8882483e-962a-47ee-8718-fdcfb69313af","environmentVariableName":"washidev_shared_sharepointonline_8dc27dd09a8c441e9c4990b9493cca28"}},"Env_ExpenseRequestandClaim_StaffTravelRequests":{"tableName":"c45e89b1-8df6-4c07-8869-129af8a50383","tableNameOverride":{"name":"c45e89b1-8df6-4c07-8869-129af8a50383","environmentVariableName":"washidev_Env_ExpenseRequestandClaim_StaffTravelRequests"}},"Env_ExpenseRequestClaim_StaffExpense":{"tableName":"a3471f69-5f5a-42f7-a15b-9196cc2605bf","tableNameOverride":{"name":"a3471f69-5f5a-42f7-a15b-9196cc2605bf","environmentVariableName":"washidev_Env_ExpenseRequestClaim_StaffExpense"}}}}},"apiTier":"Standard","actions":["providers/PowerPlatform.Governance/Operations/Read","providers/PowerPlatform.Governance/Operations/Write"]},"dfe12a80-a962-4342-8419-1a30cf2ff49f":{"id":"/providers/microsoft.powerapps/apis/shared_sharepointonline","displayName":"SharePoint","iconUri":"https://connectoricons-prod.azureedge.net/u/jayawan/releases/v1.0.1697/1.0.1697.3786/sharepointonline/icon.png","dataSources":["Env_ExpenseRequestandClaim_BankDetails","Env_ExpenseRequestandClaim_TravelRequests"],"dependencies":[],"dependents":[],"parameterHints":{},"parameterHintsV2":{},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{"https://washi.sharepoint.com/sites/ExpenseRequestandClaims_washidev_shared_sharepointonline_d253147aff5d488abcec1e6dbbcf4135":{"datasetOverride":{"name":"https://washi.sharepoint.com/sites/ExpenseRequestandClaims","environmentVariableName":"washidev_shared_sharepointonline_d253147aff5d488abcec1e6dbbcf4135"},"dataSources":{"Env_ExpenseRequestandClaim_BankDetails":{"tableName":"4ee5d3ee-c671-43c0-93bb-9d1620d8ccff","tableNameOverride":{"name":"4ee5d3ee-c671-43c0-93bb-9d1620d8ccff","environmentVariableName":"washidev_shared_sharepointonline_e58dcc022eb540f69c67a1530907df43"}},"Env_ExpenseRequestandClaim_TravelRequests":{"tableName":"da661c2a-b63b-4c34-958a-fefcee564160","tableNameOverride":{"name":"da661c2a-b63b-4c34-958a-fefcee564160","environmentVariableName":"washidev_shared_sharepointonline_f86ed39c34284c45b78c36d4db24505b"}}}}},"apiTier":"Standard","actions":["providers/PowerPlatform.Governance/Operations/Read","providers/PowerPlatform.Governance/Operations/Write"]},"92b446cb-10de-4072-86f7-0383ff60e340":{"id":"/providers/microsoft.powerapps/apis/shared_logicflows","displayName":"Logic flows","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1697/1.0.1697.3780/logicflows/icon.png","dataSources":["FinanceModule3-FinanceTravelAdvanceApproval"],"dependencies":["4faf6dcb-1776-492b-82c6-6b60d3e500b7","c721fe5d-c842-49de-8b17-63eb3aa7f87b"],"dependents":[],"parameterHints":{"workflowName":{"value":"76df366d-ddb9-4651-8984-794d15e07c84"},"workflowEntityId":{"value":"027c0cf6-129f-ee11-a569-000d3aca2f47"},"workflowDisplayName":{"value":"Finance Module 3 - Finance Travel Advance Approval"},"4faf6dcb-1776-492b-82c6-6b60d3e500b7":{"value":"shared_sharepointonline_2"},"c721fe5d-c842-49de-8b17-63eb3aa7f87b":{"value":"shared_office365_2"}},"parameterHintsV2":{"workflowName":{"value":"76df366d-ddb9-4651-8984-794d15e07c84"},"workflowEntityId":{"value":"027c0cf6-129f-ee11-a569-000d3aca2f47"},"workflowDisplayName":{"value":"Finance Module 3 - Finance Travel Advance Approval"},"shared_sharepointonline_2":{"value":"4faf6dcb-1776-492b-82c6-6b60d3e500b7"},"shared_office365_2":{"value":"c721fe5d-c842-49de-8b17-63eb3aa7f87b"}},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard","actions":["Run"]},"4faf6dcb-1776-492b-82c6-6b60d3e500b7":{"id":"/providers/microsoft.powerapps/apis/shared_sharepointonline","displayName":"SharePoint","iconUri":"https://connectoricons-prod.azureedge.net/u/jayawan/releases/v1.0.1697/1.0.1697.3786/sharepointonline/icon.png","dataSources":[],"dependencies":[],"dependents":["92b446cb-10de-4072-86f7-0383ff60e340","9e369dae-e121-4b77-b215-88b43b0d68d8","7edab50a-4151-47a5-a7c7-68a44c663f27"],"parameterHints":{},"parameterHintsV2":{},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard"},"c721fe5d-c842-49de-8b17-63eb3aa7f87b":{"id":"/providers/microsoft.powerapps/apis/shared_office365","displayName":"Office 365 Outlook","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1686/1.0.1686.3706/office365/icon.png","dataSources":[],"dependencies":[],"dependents":["92b446cb-10de-4072-86f7-0383ff60e340"],"parameterHints":{},"parameterHintsV2":{},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard"},"8c87e91f-d334-4736-9fd3-4bc1feb4435a":{"id":"/providers/microsoft.powerapps/apis/shared_logicflows","displayName":"Logic flows","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1697/1.0.1697.3780/logicflows/icon.png","dataSources":["FinanceModule5-FinanceTravelClaimApproval"],"dependencies":["4c5ebd98-4515-4e5a-9bbd-bf63c08e5645","1f75f0e7-814b-49a3-80b6-365279efc9d7"],"dependents":[],"parameterHints":{"workflowName":{"value":"a9b78048-ece0-4d10-ac89-36fe37418255"},"workflowEntityId":{"value":"007c0cf6-129f-ee11-a569-000d3aca2f47"},"workflowDisplayName":{"value":"Finance Module 5 - Finance Travel Claim Approval"},"4c5ebd98-4515-4e5a-9bbd-bf63c08e5645":{"value":"shared_sharepointonline_1"},"1f75f0e7-814b-49a3-80b6-365279efc9d7":{"value":"shared_office365_1"}},"parameterHintsV2":{"workflowName":{"value":"a9b78048-ece0-4d10-ac89-36fe37418255"},"workflowEntityId":{"value":"007c0cf6-129f-ee11-a569-000d3aca2f47"},"workflowDisplayName":{"value":"Finance Module 5 - Finance Travel Claim Approval"},"shared_sharepointonline_1":{"value":"4c5ebd98-4515-4e5a-9bbd-bf63c08e5645"},"shared_office365_1":{"value":"1f75f0e7-814b-49a3-80b6-365279efc9d7"}},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard","actions":["Run"]},"4c5ebd98-4515-4e5a-9bbd-bf63c08e5645":{"id":"/providers/microsoft.powerapps/apis/shared_sharepointonline","displayName":"SharePoint","iconUri":"https://connectoricons-prod.azureedge.net/u/jayawan/releases/v1.0.1697/1.0.1697.3786/sharepointonline/icon.png","dataSources":[],"dependencies":[],"dependents":["8c87e91f-d334-4736-9fd3-4bc1feb4435a"],"parameterHints":{},"parameterHintsV2":{},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard"},"1f75f0e7-814b-49a3-80b6-365279efc9d7":{"id":"/providers/microsoft.powerapps/apis/shared_office365","displayName":"Office 365 Outlook","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1686/1.0.1686.3706/office365/icon.png","dataSources":[],"dependencies":[],"dependents":["8c87e91f-d334-4736-9fd3-4bc1feb4435a","9e369dae-e121-4b77-b215-88b43b0d68d8","7edab50a-4151-47a5-a7c7-68a44c663f27","a4970919-3e4d-4832-8259-6cd68d441ebe"],"parameterHints":{},"parameterHintsV2":{},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard"},"9e369dae-e121-4b77-b215-88b43b0d68d8":{"id":"/providers/microsoft.powerapps/apis/shared_logicflows","displayName":"Logic flows","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1697/1.0.1697.3780/logicflows/icon.png","dataSources":["StaffExpenseRequestModule3-FinanceStaffExpenseAdvanceApproval"],"dependencies":["4faf6dcb-1776-492b-82c6-6b60d3e500b7","1f75f0e7-814b-49a3-80b6-365279efc9d7","4faf6dcb-1776-492b-82c6-6b60d3e500b7"],"dependents":[],"parameterHints":{"workflowName":{"value":"4deff1cf-3db6-4848-9609-70c4221e0d23"},"workflowEntityId":{"value":"017c0cf6-129f-ee11-a569-000d3aca2f47"},"workflowDisplayName":{"value":"Staff Expense Request Module 3 - Finance Staff Expense Advance Approval"},"4faf6dcb-1776-492b-82c6-6b60d3e500b7":{"value":"shared_sharepointonline_2"},"1f75f0e7-814b-49a3-80b6-365279efc9d7":{"value":"shared_office365_1"}},"parameterHintsV2":{"workflowName":{"value":"4deff1cf-3db6-4848-9609-70c4221e0d23"},"workflowEntityId":{"value":"017c0cf6-129f-ee11-a569-000d3aca2f47"},"workflowDisplayName":{"value":"Staff Expense Request Module 3 - Finance Staff Expense Advance Approval"},"shared_sharepointonline":{"value":"4faf6dcb-1776-492b-82c6-6b60d3e500b7"},"shared_office365_1":{"value":"1f75f0e7-814b-49a3-80b6-365279efc9d7"},"shared_sharepointonline_2":{"value":"4faf6dcb-1776-492b-82c6-6b60d3e500b7"}},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard","actions":["Run"]},"7edab50a-4151-47a5-a7c7-68a44c663f27":{"id":"/providers/microsoft.powerapps/apis/shared_logicflows","displayName":"Logic flows","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1697/1.0.1697.3780/logicflows/icon.png","dataSources":["StaffExpenseRequestModule4-FinanceStaffClaimApproval"],"dependencies":["4faf6dcb-1776-492b-82c6-6b60d3e500b7","1f75f0e7-814b-49a3-80b6-365279efc9d7","4faf6dcb-1776-492b-82c6-6b60d3e500b7"],"dependents":[],"parameterHints":{"workflowName":{"value":"d2f7a78f-1418-4440-96ce-6b3dbb6eb9ba"},"workflowEntityId":{"value":"037c0cf6-129f-ee11-a569-000d3aca2f47"},"workflowDisplayName":{"value":"Staff Expense Request Module 4 - Finance Staff Claim Approval"},"4faf6dcb-1776-492b-82c6-6b60d3e500b7":{"value":"shared_sharepointonline_2"},"1f75f0e7-814b-49a3-80b6-365279efc9d7":{"value":"shared_office365_1"}},"parameterHintsV2":{"workflowName":{"value":"d2f7a78f-1418-4440-96ce-6b3dbb6eb9ba"},"workflowEntityId":{"value":"037c0cf6-129f-ee11-a569-000d3aca2f47"},"workflowDisplayName":{"value":"Staff Expense Request Module 4 - Finance Staff Claim Approval"},"shared_sharepointonline":{"value":"4faf6dcb-1776-492b-82c6-6b60d3e500b7"},"shared_office365_1":{"value":"1f75f0e7-814b-49a3-80b6-365279efc9d7"},"shared_sharepointonline_2":{"value":"4faf6dcb-1776-492b-82c6-6b60d3e500b7"}},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard","actions":["Run"]},"a4970919-3e4d-4832-8259-6cd68d441ebe":{"id":"/providers/microsoft.powerapps/apis/shared_logicflows","displayName":"Logic flows","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1697/1.0.1697.3780/logicflows/icon.png","dataSources":["Send_or_Receive_Claim_or_Advance_Amount"],"dependencies":["1f75f0e7-814b-49a3-80b6-365279efc9d7","1aaf1a3e-3f8e-416e-a830-ad714db57ad5"],"dependents":[],"parameterHints":{"workflowName":{"value":"c3fc9526-dce3-4f2f-8f04-57f888e53a00"},"workflowEntityId":{"value":"1c73f2eb-6a42-ef11-a316-000d3a0a7dc2"},"workflowDisplayName":{"value":"Send_or_Receive_Claim_or_Advance_Amount"},"1f75f0e7-814b-49a3-80b6-365279efc9d7":{"value":"shared_office365_1"},"1aaf1a3e-3f8e-416e-a830-ad714db57ad5":{"value":"shared_office365users"}},"parameterHintsV2":{"workflowName":{"value":"c3fc9526-dce3-4f2f-8f04-57f888e53a00"},"workflowEntityId":{"value":"1c73f2eb-6a42-ef11-a316-000d3a0a7dc2"},"workflowDisplayName":{"value":"Send_or_Receive_Claim_or_Advance_Amount"},"shared_office365_1":{"value":"1f75f0e7-814b-49a3-80b6-365279efc9d7"},"shared_office365users":{"value":"1aaf1a3e-3f8e-416e-a830-ad714db57ad5"}},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard","actions":["Run"]},"1aaf1a3e-3f8e-416e-a830-ad714db57ad5":{"id":"/providers/microsoft.powerapps/apis/shared_office365users","displayName":"Office 365 Users","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1702/1.0.1702.3810/office365users/icon.png","dataSources":[],"dependencies":[],"dependents":["a4970919-3e4d-4832-8259-6cd68d441ebe"],"parameterHints":{},"parameterHintsV2":{},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard"}}</ConnectionReferences>
+      <DatabaseReferences>{}</DatabaseReferences>
+      <AppComponents>[]</AppComponents>
+      <AppComponentDependencies>[]</AppComponentDependencies>
+      <CanConsumeAppPass>1</CanConsumeAppPass>
+      <CanvasAppType>0</CanvasAppType>
+      <BypassConsent>0</BypassConsent>
+      <AdminControlBypassConsent>0</AdminControlBypassConsent>
+      <EmbeddedApp xsi:nil="true"></EmbeddedApp>
+      <IntroducedVersion>1.0</IntroducedVersion>
+      <CdsDependencies>{"cdsdependencies":[{"componenttype":29,"dependencyid":"027c0cf6-129f-ee11-a569-000d3aca2f47","componenttypeplatformname":"Workflow"},{"componenttype":29,"dependencyid":"007c0cf6-129f-ee11-a569-000d3aca2f47","componenttypeplatformname":"Workflow"},{"componenttype":29,"dependencyid":"017c0cf6-129f-ee11-a569-000d3aca2f47","componenttypeplatformname":"Workflow"},{"componenttype":29,"dependencyid":"037c0cf6-129f-ee11-a569-000d3aca2f47","componenttypeplatformname":"Workflow"},{"componenttype":380,"logicalname":"washidev_shared_sharepointonline_d253147aff5d488abcec1e6dbbcf4135","componenttypeplatformname":"EnvironmentVariableDefinition"},{"componenttype":380,"logicalname":"washidev_shared_sharepointonline_8dc27dd09a8c441e9c4990b9493cca28","componenttypeplatformname":"EnvironmentVariableDefinition"},{"componenttype":380,"logicalname":"washidev_Env_ExpenseRequestandClaim_StaffTravelRequests","componenttypeplatformname":"EnvironmentVariableDefinition"},{"componenttype":380,"logicalname":"washidev_Env_ExpenseRequestClaim_StaffExpense","componenttypeplatformname":"EnvironmentVariableDefinition"},{"componenttype":380,"logicalname":"washidev_shared_sharepointonline_e58dcc022eb540f69c67a1530907df43","componenttypeplatformname":"EnvironmentVariableDefinition"},{"componenttype":380,"logicalname":"washidev_shared_sharepointonline_f86ed39c34284c45b78c36d4db24505b","componenttypeplatformname":"EnvironmentVariableDefinition"}]}</CdsDependencies>
+      <IsCustomizable>1</IsCustomizable>
+      <BackgroundImageUri>/CanvasApps/washidev_financeteamapprovals_672eb_BackgroundImageUri</BackgroundImageUri>
+      <DocumentUri>/CanvasApps/washidev_financeteamapprovals_672eb_DocumentUri.msapp</DocumentUri>
+      <AdditionalUris>
+        <AdditionalUri>/CanvasApps/washidev_financeteamapprovals_672eb_AdditionalUris0_identity.json</AdditionalUri>
+      </AdditionalUris>
+    </CanvasApp>
+    <CanvasApp>
+      <Name>washidev_staffexpenserequest_68121</Name>
+      <AppVersion>2024-08-21T11:37:07Z</AppVersion>
+      <Status>Ready</Status>
+      <CreatedByClientVersion>3.24082.13.0</CreatedByClientVersion>
+      <MinClientVersion>3.24082.13.0</MinClientVersion>
+      <Tags>{"primaryDeviceWidth":"1366","primaryDeviceHeight":"768","supportsPortrait":"true","supportsLandscape":"true","primaryFormFactor":"Tablet","publisherVersion":"3.24082.13","minimumRequiredApiVersion":"2.2.0","hasComponent":"false","hasUnlockedComponent":"false","isUnifiedRootApp":"false","sienaVersion":"20240802T031253Z-3.24071.7.0","showStatusBar":"false","offlineLargeFilesSupport":"false"}</Tags>
+      <IsCdsUpgraded>0</IsCdsUpgraded>
+      <GalleryItemId xsi:nil="true"></GalleryItemId>
+      <BackgroundColor>RGBA(0,176,240,1)</BackgroundColor>
+      <DisplayName>Staff Expense Request</DisplayName>
+      <Description>1</Description>
+      <CommitMessage>Save app with description provided in publish dialog.</CommitMessage>
+      <Publisher></Publisher>
+      <AuthorizationReferences>[]</AuthorizationReferences>
+      <ConnectionReferences>{"5207e754-b1f7-4097-b6c9-cccd3ea1841a":{"id":"/providers/microsoft.powerapps/apis/shared_sharepointonline","displayName":"SharePoint","iconUri":"https://connectoricons-prod.azureedge.net/u/jayawan/releases/v1.0.1697/1.0.1697.3786/sharepointonline/icon.png","dataSources":["Project List","Bank Details","Staff Expense","Staff Expense Advance Request","Employee Directory","Project Allocation List","Env_PM_ProjectList","Env_PM_ProjectAllocationList","Env_Employee_EmployeeDirectoryList","Env_ExpenseRequestandClaim_BankDetails","Env_ExpenseRequestClaim_StaffExpense","Env_ExpenseRequestandClaim_StaffTravelRequests"],"dependencies":[],"dependents":[],"parameterHints":{},"parameterHintsV2":{},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{"https://washi.sharepoint.com/sites/ExpenseRequestandClaims":{"dataSources":{"Bank Details":{"tableName":"4ee5d3ee-c671-43c0-93bb-9d1620d8ccff"},"Staff Expense":{"tableName":"a3471f69-5f5a-42f7-a15b-9196cc2605bf"},"Staff Expense Advance Request":{"tableName":"c45e89b1-8df6-4c07-8869-129af8a50383"}}},"https://washi.sharepoint.com/sites/pm":{"dataSources":{"Project List":{"tableName":"4683813b-3e7f-4440-8f85-6d950ad76e67"}}},"https://washi.sharepoint.com/sites/ExpenseRequestandClaims_washidev_shared_sharepointonline_d253147aff5d488abcec1e6dbbcf4135":{"datasetOverride":{"name":"https://washi.sharepoint.com/sites/ExpenseRequestandClaims","environmentVariableName":"washidev_shared_sharepointonline_d253147aff5d488abcec1e6dbbcf4135"},"dataSources":{"Env_ExpenseRequestandClaim_BankDetails":{"tableName":"f695189f-38a6-44b1-a3fb-b0d3e8e9bf37","tableNameOverride":{"name":"f695189f-38a6-44b1-a3fb-b0d3e8e9bf37","environmentVariableName":"washidev_shared_sharepointonline_e58dcc022eb540f69c67a1530907df43"}},"Env_ExpenseRequestClaim_StaffExpense":{"tableName":"abd9732b-b73d-405d-996b-cf4606a11e78","tableNameOverride":{"name":"abd9732b-b73d-405d-996b-cf4606a11e78","environmentVariableName":"washidev_Env_ExpenseRequestClaim_StaffExpense"}},"Env_ExpenseRequestandClaim_StaffTravelRequests":{"tableName":"4a8dc5ba-cd51-4313-981f-7fbe5c5b88ed","tableNameOverride":{"name":"4a8dc5ba-cd51-4313-981f-7fbe5c5b88ed","environmentVariableName":"washidev_Env_ExpenseRequestandClaim_StaffTravelRequests"}}}},"https://washi.sharepoint.com/sites/pm_washidev_shared_sharepointonline_2686cdbdafda4cf4ae7b9689cdd3e12d":{"datasetOverride":{"name":"https://washi.sharepoint.com/sites/pm","environmentVariableName":"washidev_shared_sharepointonline_2686cdbdafda4cf4ae7b9689cdd3e12d"},"dataSources":{"Env_PM_ProjectList":{"tableName":"4683813b-3e7f-4440-8f85-6d950ad76e67","tableNameOverride":{"name":"4683813b-3e7f-4440-8f85-6d950ad76e67","environmentVariableName":"washidev_Env_PM_ProjectList"}},"Env_PM_ProjectAllocationList":{"tableName":"495b5fc1-e794-4784-93c2-520d00dce163","tableNameOverride":{"name":"495b5fc1-e794-4784-93c2-520d00dce163","environmentVariableName":"washidev_Env_PM_ProjectAllocationList"}}}}},"apiTier":"Standard","actions":["providers/PowerPlatform.Governance/Operations/Read","providers/PowerPlatform.Governance/Operations/Write","providers/PowerPlatform.Governance/Operations/Delete"]},"d964b0cd-df6d-43e8-a1f6-bc89f2342134":{"id":"/providers/microsoft.powerapps/apis/shared_office365users","displayName":"Office 365 Users","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1702/1.0.1702.3810/office365users/icon.png","dataSources":["Office365Users"],"dependencies":[],"dependents":[],"parameterHints":{},"parameterHintsV2":{},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard"},"30851a91-bed7-4a56-8c12-14a653b13032":{"id":"/providers/microsoft.powerapps/apis/shared_sharepointonline","displayName":"SharePoint","iconUri":"https://connectoricons-prod.azureedge.net/u/jayawan/releases/v1.0.1697/1.0.1697.3786/sharepointonline/icon.png","dataSources":["Project Allocation List","Employee Directory","Env_Employee_EmployeeDirectoryList"],"dependencies":[],"dependents":[],"parameterHints":{},"parameterHintsV2":{},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{"https://washi.sharepoint.com/sites/pm":{"dataSources":{"Project Allocation List":{"tableName":"495b5fc1-e794-4784-93c2-520d00dce163"}}},"https://washi.sharepoint.com/sites/Employee":{"dataSources":{"Employee Directory":{"tableName":"2c9f176b-dd10-4619-9e86-9a46fa907706"}}}},"apiTier":"Standard","actions":["providers/PowerPlatform.Governance/Operations/Read"]},"3c22d9a1-b7c5-4935-9202-b753b610d97f":{"id":"/providers/microsoft.powerapps/apis/shared_sharepointonline","displayName":"SharePoint","iconUri":"https://connectoricons-prod.azureedge.net/u/jayawan/releases/v1.0.1697/1.0.1697.3786/sharepointonline/icon.png","dataSources":["Env_Employee_EmployeeDirectoryList"],"dependencies":[],"dependents":[],"parameterHints":{},"parameterHintsV2":{},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{"https://washi.sharepoint.com/sites/Employee_washidev_ENV_ED_Site":{"datasetOverride":{"name":"https://washi.sharepoint.com/sites/Employee","environmentVariableName":"washidev_ENV_ED_Site"},"dataSources":{"Env_Employee_EmployeeDirectoryList":{"tableName":"2c9f176b-dd10-4619-9e86-9a46fa907706","tableNameOverride":{"name":"2c9f176b-dd10-4619-9e86-9a46fa907706","environmentVariableName":"washidev_Env_Employee_EmployeeDirectory"}}}}},"apiTier":"Standard","actions":["providers/PowerPlatform.Governance/Operations/Read"]},"87864970-775e-49dc-b70d-c865e7d97d71":{"id":"/providers/microsoft.powerapps/apis/shared_logicflows","displayName":"Logic flows","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1697/1.0.1697.3780/logicflows/icon.png","dataSources":["StaffExpenseRequestModule2-PMExpenseClaimApprovals"],"dependencies":["b3a1bc72-bbf1-44da-bff9-ad351d842981","ac964351-2a89-436a-86f6-5f2ac08149ba","b3a1bc72-bbf1-44da-bff9-ad351d842981"],"dependents":[],"parameterHints":{"workflowName":{"value":"7c4971d7-edf1-4082-99a6-85415bbfe2e8"},"workflowEntityId":{"value":"0a92e6fe-8919-ef11-840a-000d3af255a3"},"workflowDisplayName":{"value":"Staff Expense Request Module 2 - PM Expense Claim Approvals"},"b3a1bc72-bbf1-44da-bff9-ad351d842981":{"value":"shared_sharepointonline_2"},"ac964351-2a89-436a-86f6-5f2ac08149ba":{"value":"shared_office365"}},"parameterHintsV2":{"workflowName":{"value":"7c4971d7-edf1-4082-99a6-85415bbfe2e8"},"workflowEntityId":{"value":"0a92e6fe-8919-ef11-840a-000d3af255a3"},"workflowDisplayName":{"value":"Staff Expense Request Module 2 - PM Expense Claim Approvals"},"shared_sharepointonline":{"value":"b3a1bc72-bbf1-44da-bff9-ad351d842981"},"shared_office365":{"value":"ac964351-2a89-436a-86f6-5f2ac08149ba"},"shared_sharepointonline_2":{"value":"b3a1bc72-bbf1-44da-bff9-ad351d842981"}},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard","actions":["Run"]},"b3a1bc72-bbf1-44da-bff9-ad351d842981":{"id":"/providers/microsoft.powerapps/apis/shared_sharepointonline","displayName":"SharePoint","iconUri":"https://connectoricons-prod.azureedge.net/u/jayawan/releases/v1.0.1697/1.0.1697.3786/sharepointonline/icon.png","dataSources":[],"dependencies":[],"dependents":["87864970-775e-49dc-b70d-c865e7d97d71","0a8fcf6a-b45a-45f4-b356-f4f1536f2ea4","122750d8-8aee-43c1-a606-29d31d9eb955","f257db10-14c4-4768-9bda-f6bbd5763521","6922cdc5-2575-41df-8377-b3d079e71f9c","e828baff-a083-4246-8eed-d9a9aa15d06d"],"parameterHints":{},"parameterHintsV2":{},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard"},"ac964351-2a89-436a-86f6-5f2ac08149ba":{"id":"/providers/microsoft.powerapps/apis/shared_office365","displayName":"Office 365 Outlook","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1686/1.0.1686.3706/office365/icon.png","dataSources":[],"dependencies":[],"dependents":["87864970-775e-49dc-b70d-c865e7d97d71","0a8fcf6a-b45a-45f4-b356-f4f1536f2ea4","122750d8-8aee-43c1-a606-29d31d9eb955","f257db10-14c4-4768-9bda-f6bbd5763521","6922cdc5-2575-41df-8377-b3d079e71f9c","e828baff-a083-4246-8eed-d9a9aa15d06d","6fe3ddaf-3723-47e1-9efd-e3d378f0914d"],"parameterHints":{},"parameterHintsV2":{},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard"},"0a8fcf6a-b45a-45f4-b356-f4f1536f2ea4":{"id":"/providers/microsoft.powerapps/apis/shared_logicflows","displayName":"Logic flows","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1697/1.0.1697.3780/logicflows/icon.png","dataSources":["StaffExpenseRequestModule3-EDAdvanceApproval"],"dependencies":["b3a1bc72-bbf1-44da-bff9-ad351d842981","b3a1bc72-bbf1-44da-bff9-ad351d842981","ac964351-2a89-436a-86f6-5f2ac08149ba"],"dependents":[],"parameterHints":{"workflowName":{"value":"b34e794f-6eca-4258-9077-2bad388fd211"},"workflowEntityId":{"value":"c0c59cab-7b32-ef11-8e4e-002248d5b646"},"workflowDisplayName":{"value":"Staff Expense Request Module 3 - ED Advance Approval"},"b3a1bc72-bbf1-44da-bff9-ad351d842981":{"value":"shared_sharepointonline"},"ac964351-2a89-436a-86f6-5f2ac08149ba":{"value":"shared_office365_1"}},"parameterHintsV2":{"workflowName":{"value":"b34e794f-6eca-4258-9077-2bad388fd211"},"workflowEntityId":{"value":"c0c59cab-7b32-ef11-8e4e-002248d5b646"},"workflowDisplayName":{"value":"Staff Expense Request Module 3 - ED Advance Approval"},"shared_sharepointonline_2":{"value":"b3a1bc72-bbf1-44da-bff9-ad351d842981"},"shared_sharepointonline":{"value":"b3a1bc72-bbf1-44da-bff9-ad351d842981"},"shared_office365_1":{"value":"ac964351-2a89-436a-86f6-5f2ac08149ba"}},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard","actions":["Run"]},"122750d8-8aee-43c1-a606-29d31d9eb955":{"id":"/providers/microsoft.powerapps/apis/shared_logicflows","displayName":"Logic flows","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1697/1.0.1697.3780/logicflows/icon.png","dataSources":["StaffExpenseRequestModule4-EDClaimApproval"],"dependencies":["b3a1bc72-bbf1-44da-bff9-ad351d842981","b3a1bc72-bbf1-44da-bff9-ad351d842981","ac964351-2a89-436a-86f6-5f2ac08149ba"],"dependents":[],"parameterHints":{"workflowName":{"value":"426bb856-2ea0-41e1-a0e0-ee1d7b9cdb30"},"workflowEntityId":{"value":"a037bb77-7c32-ef11-8e4e-002248d5b646"},"workflowDisplayName":{"value":"Staff Expense Request Module 4 - ED Claim Approval"},"b3a1bc72-bbf1-44da-bff9-ad351d842981":{"value":"shared_sharepointonline"},"ac964351-2a89-436a-86f6-5f2ac08149ba":{"value":"shared_office365_1"}},"parameterHintsV2":{"workflowName":{"value":"426bb856-2ea0-41e1-a0e0-ee1d7b9cdb30"},"workflowEntityId":{"value":"a037bb77-7c32-ef11-8e4e-002248d5b646"},"workflowDisplayName":{"value":"Staff Expense Request Module 4 - ED Claim Approval"},"shared_sharepointonline_2":{"value":"b3a1bc72-bbf1-44da-bff9-ad351d842981"},"shared_sharepointonline":{"value":"b3a1bc72-bbf1-44da-bff9-ad351d842981"},"shared_office365_1":{"value":"ac964351-2a89-436a-86f6-5f2ac08149ba"}},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard","actions":["Run"]},"f257db10-14c4-4768-9bda-f6bbd5763521":{"id":"/providers/microsoft.powerapps/apis/shared_logicflows","displayName":"Logic flows","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1697/1.0.1697.3780/logicflows/icon.png","dataSources":["StaffExpenseRequestModule1-PMAdvanceRequestApproval"],"dependencies":["b3a1bc72-bbf1-44da-bff9-ad351d842981","ac964351-2a89-436a-86f6-5f2ac08149ba"],"dependents":[],"parameterHints":{"workflowName":{"value":"b7275cbd-bea9-469a-bbd4-27d88ee0a5f8"},"workflowEntityId":{"value":"05688533-4a19-ef11-840a-000d3af255a3"},"workflowDisplayName":{"value":"Staff Expense Request Module 1 - PM Advance Request Approval"},"b3a1bc72-bbf1-44da-bff9-ad351d842981":{"value":"shared_sharepointonline_2"},"ac964351-2a89-436a-86f6-5f2ac08149ba":{"value":"shared_office365_1"}},"parameterHintsV2":{"workflowName":{"value":"b7275cbd-bea9-469a-bbd4-27d88ee0a5f8"},"workflowEntityId":{"value":"05688533-4a19-ef11-840a-000d3af255a3"},"workflowDisplayName":{"value":"Staff Expense Request Module 1 - PM Advance Request Approval"},"shared_sharepointonline_2":{"value":"b3a1bc72-bbf1-44da-bff9-ad351d842981"},"shared_office365_1":{"value":"ac964351-2a89-436a-86f6-5f2ac08149ba"}},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard","actions":["Run"]},"6922cdc5-2575-41df-8377-b3d079e71f9c":{"id":"/providers/microsoft.powerapps/apis/shared_logicflows","displayName":"Logic flows","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1697/1.0.1697.3780/logicflows/icon.png","dataSources":["StaffExpenseRequestModule1-AdvanceRequest"],"dependencies":["b3a1bc72-bbf1-44da-bff9-ad351d842981","ac964351-2a89-436a-86f6-5f2ac08149ba"],"dependents":[],"parameterHints":{"workflowName":{"value":"2c1a44bd-6050-458c-94bc-fec235f1fbe6"},"workflowEntityId":{"value":"d0f939ca-139f-ee11-a569-000d3aca2f47"},"workflowDisplayName":{"value":"Staff Expense Request Module 1 - Advance Request"},"b3a1bc72-bbf1-44da-bff9-ad351d842981":{"value":"shared_sharepointonline"},"ac964351-2a89-436a-86f6-5f2ac08149ba":{"value":"shared_office365_1"}},"parameterHintsV2":{"workflowName":{"value":"2c1a44bd-6050-458c-94bc-fec235f1fbe6"},"workflowEntityId":{"value":"d0f939ca-139f-ee11-a569-000d3aca2f47"},"workflowDisplayName":{"value":"Staff Expense Request Module 1 - Advance Request"},"shared_sharepointonline":{"value":"b3a1bc72-bbf1-44da-bff9-ad351d842981"},"shared_office365_1":{"value":"ac964351-2a89-436a-86f6-5f2ac08149ba"}},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard","actions":["Run"]},"e828baff-a083-4246-8eed-d9a9aa15d06d":{"id":"/providers/microsoft.powerapps/apis/shared_logicflows","displayName":"Logic flows","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1697/1.0.1697.3780/logicflows/icon.png","dataSources":["StaffExpenseRequestModule2-ExpenseClaimRequest"],"dependencies":["b3a1bc72-bbf1-44da-bff9-ad351d842981","ac964351-2a89-436a-86f6-5f2ac08149ba"],"dependents":[],"parameterHints":{"workflowName":{"value":"0e2441f0-e852-415d-8585-968d71bfa470"},"workflowEntityId":{"value":"cff939ca-139f-ee11-a569-000d3aca2f47"},"workflowDisplayName":{"value":"Staff Expense Request Module 2 - Expense Claim Request"},"b3a1bc72-bbf1-44da-bff9-ad351d842981":{"value":"shared_sharepointonline"},"ac964351-2a89-436a-86f6-5f2ac08149ba":{"value":"shared_office365"}},"parameterHintsV2":{"workflowName":{"value":"0e2441f0-e852-415d-8585-968d71bfa470"},"workflowEntityId":{"value":"cff939ca-139f-ee11-a569-000d3aca2f47"},"workflowDisplayName":{"value":"Staff Expense Request Module 2 - Expense Claim Request"},"shared_sharepointonline":{"value":"b3a1bc72-bbf1-44da-bff9-ad351d842981"},"shared_office365":{"value":"ac964351-2a89-436a-86f6-5f2ac08149ba"}},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard","actions":["Run"]},"6fe3ddaf-3723-47e1-9efd-e3d378f0914d":{"id":"/providers/microsoft.powerapps/apis/shared_logicflows","displayName":"Logic flows","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1697/1.0.1697.3780/logicflows/icon.png","dataSources":["Send_or_Receive_Claim_or_Advance_Amount"],"dependencies":["ac964351-2a89-436a-86f6-5f2ac08149ba","d1f572e0-50cb-4753-b83b-f29c49cb07b4"],"dependents":[],"parameterHints":{"workflowName":{"value":"883578b7-5310-4a60-b496-4187488f64e6"},"workflowEntityId":{"value":"1c73f2eb-6a42-ef11-a316-000d3a0a7dc2"},"workflowDisplayName":{"value":"Send_or_Receive_Claim_or_Advance_Amount"},"ac964351-2a89-436a-86f6-5f2ac08149ba":{"value":"shared_office365_1"},"d1f572e0-50cb-4753-b83b-f29c49cb07b4":{"value":"shared_office365users"}},"parameterHintsV2":{"workflowName":{"value":"883578b7-5310-4a60-b496-4187488f64e6"},"workflowEntityId":{"value":"1c73f2eb-6a42-ef11-a316-000d3a0a7dc2"},"workflowDisplayName":{"value":"Send_or_Receive_Claim_or_Advance_Amount"},"shared_office365_1":{"value":"ac964351-2a89-436a-86f6-5f2ac08149ba"},"shared_office365users":{"value":"d1f572e0-50cb-4753-b83b-f29c49cb07b4"}},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard","actions":["Run"]},"d1f572e0-50cb-4753-b83b-f29c49cb07b4":{"id":"/providers/microsoft.powerapps/apis/shared_office365users","displayName":"Office 365 Users","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1702/1.0.1702.3810/office365users/icon.png","dataSources":[],"dependencies":[],"dependents":["6fe3ddaf-3723-47e1-9efd-e3d378f0914d"],"parameterHints":{},"parameterHintsV2":{},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard"}}</ConnectionReferences>
+      <DatabaseReferences>{}</DatabaseReferences>
+      <AppComponents>[]</AppComponents>
+      <AppComponentDependencies>[]</AppComponentDependencies>
+      <CanConsumeAppPass>1</CanConsumeAppPass>
+      <CanvasAppType>0</CanvasAppType>
+      <BypassConsent>0</BypassConsent>
+      <AdminControlBypassConsent>0</AdminControlBypassConsent>
+      <EmbeddedApp xsi:nil="true"></EmbeddedApp>
+      <IntroducedVersion>1.0</IntroducedVersion>
+      <CdsDependencies>{"cdsdependencies":[{"dependencyid":"0a92e6fe-8919-ef11-840a-000d3af255a3","componenttype":29,"componenttypeplatformname":"Workflow"},{"dependencyid":"c0c59cab-7b32-ef11-8e4e-002248d5b646","componenttype":29,"componenttypeplatformname":"Workflow"},{"dependencyid":"a037bb77-7c32-ef11-8e4e-002248d5b646","componenttype":29,"componenttypeplatformname":"Workflow"},{"dependencyid":"05688533-4a19-ef11-840a-000d3af255a3","componenttype":29,"componenttypeplatformname":"Workflow"},{"dependencyid":"d0f939ca-139f-ee11-a569-000d3aca2f47","componenttype":29,"componenttypeplatformname":"Workflow"},{"dependencyid":"cff939ca-139f-ee11-a569-000d3aca2f47","componenttype":29,"componenttypeplatformname":"Workflow"},{"dependencyid":"1c73f2eb-6a42-ef11-a316-000d3a0a7dc2","componenttype":29,"componenttypeplatformname":"Workflow"},{"logicalname":"washidev_shared_sharepointonline_d253147aff5d488abcec1e6dbbcf4135","componenttype":380,"componenttypeplatformname":"EnvironmentVariableDefinition"},{"logicalname":"washidev_shared_sharepointonline_2686cdbdafda4cf4ae7b9689cdd3e12d","componenttype":380,"componenttypeplatformname":"EnvironmentVariableDefinition"},{"logicalname":"washidev_shared_sharepointonline_e58dcc022eb540f69c67a1530907df43","componenttype":380,"componenttypeplatformname":"EnvironmentVariableDefinition"},{"logicalname":"washidev_Env_ExpenseRequestClaim_StaffExpense","componenttype":380,"componenttypeplatformname":"EnvironmentVariableDefinition"},{"logicalname":"washidev_Env_ExpenseRequestandClaim_StaffTravelRequests","componenttype":380,"componenttypeplatformname":"EnvironmentVariableDefinition"},{"logicalname":"washidev_Env_PM_ProjectList","componenttype":380,"componenttypeplatformname":"EnvironmentVariableDefinition"},{"logicalname":"washidev_Env_PM_ProjectAllocationList","componenttype":380,"componenttypeplatformname":"EnvironmentVariableDefinition"},{"logicalname":"washidev_ENV_ED_Site","componenttype":380,"componenttypeplatformname":"EnvironmentVariableDefinition"},{"logicalname":"washidev_Env_Employee_EmployeeDirectory","componenttype":380,"componenttypeplatformname":"EnvironmentVariableDefinition"}]}</CdsDependencies>
+      <IsCustomizable>1</IsCustomizable>
+      <BackgroundImageUri>/CanvasApps/washidev_staffexpenserequest_68121_BackgroundImageUri</BackgroundImageUri>
+      <DocumentUri>/CanvasApps/washidev_staffexpenserequest_68121_DocumentUri.msapp</DocumentUri>
+      <AdditionalUris>
+        <AdditionalUri>/CanvasApps/washidev_staffexpenserequest_68121_AdditionalUris0_identity.json</AdditionalUri>
+      </AdditionalUris>
+    </CanvasApp>
+  </CanvasApps>
+  <connectionreferences>
+    <connectionreference connectionreferencelogicalname="new_sharedoffice365_32b5a">
+      <connectionreferencedisplayname>Office 365 Outlook Financeworkflows-32b5a</connectionreferencedisplayname>
+      <connectorid>/providers/Microsoft.PowerApps/apis/shared_office365</connectorid>
+      <iscustomizable>1</iscustomizable>
+      <statecode>0</statecode>
+      <statuscode>1</statuscode>
+    </connectionreference>
+    <connectionreference connectionreferencelogicalname="washidev_sharedapprovals_073fd">
+      <connectionreferencedisplayname>Approvals WASHiDevFinanceSolution-073fd</connectionreferencedisplayname>
+      <connectorid>/providers/Microsoft.PowerApps/apis/shared_approvals</connectorid>
+      <iscustomizable>1</iscustomizable>
+      <statecode>0</statecode>
+      <statuscode>1</statuscode>
+    </connectionreference>
+    <connectionreference connectionreferencelogicalname="washidev_sharedapprovals_2851d">
+      <connectionreferencedisplayname>Approvals WASHiDevFinanceSolution-2851d</connectionreferencedisplayname>
+      <connectorid>/providers/Microsoft.PowerApps/apis/shared_approvals</connectorid>
+      <iscustomizable>1</iscustomizable>
+      <statecode>0</statecode>
+      <statuscode>1</statuscode>
+    </connectionreference>
+    <connectionreference connectionreferencelogicalname="washidev_sharedoffice365_09901">
+      <connectionreferencedisplayname>Office 365 Outlook WASHiDevFinanceSolution-09901</connectionreferencedisplayname>
+      <connectorid>/providers/Microsoft.PowerApps/apis/shared_office365</connectorid>
+      <iscustomizable>1</iscustomizable>
+      <statecode>0</statecode>
+      <statuscode>1</statuscode>
+    </connectionreference>
+    <connectionreference connectionreferencelogicalname="washidev_sharedoffice365_1a3b9">
+      <connectionreferencedisplayname>Office 365 Outlook WASHiDevFinanceSolution-1a3b9</connectionreferencedisplayname>
+      <connectorid>/providers/Microsoft.PowerApps/apis/shared_office365</connectorid>
+      <iscustomizable>1</iscustomizable>
+      <statecode>0</statecode>
+      <statuscode>1</statuscode>
+    </connectionreference>
+    <connectionreference connectionreferencelogicalname="washidev_sharedoffice365_67dd7">
+      <connectionreferencedisplayname>Office 365 Outlook WASHiDevFinanceSolution-67dd7</connectionreferencedisplayname>
+      <connectorid>/providers/Microsoft.PowerApps/apis/shared_office365</connectorid>
+      <iscustomizable>1</iscustomizable>
+      <statecode>0</statecode>
+      <statuscode>1</statuscode>
+    </connectionreference>
+    <connectionreference connectionreferencelogicalname="washidev_sharedoffice365_f5c32">
+      <connectionreferencedisplayname>Office 365 Outlook WASHiDevFinanceSolution-f5c32</connectionreferencedisplayname>
+      <connectorid>/providers/Microsoft.PowerApps/apis/shared_office365</connectorid>
+      <iscustomizable>1</iscustomizable>
+      <statecode>0</statecode>
+      <statuscode>1</statuscode>
+    </connectionreference>
+    <connectionreference connectionreferencelogicalname="washidev_sharedoffice365users_65bce">
+      <connectionreferencedisplayname>Office 365 Users WASHiDevFinanceSolution-65bce</connectionreferencedisplayname>
+      <connectorid>/providers/Microsoft.PowerApps/apis/shared_office365users</connectorid>
+      <iscustomizable>1</iscustomizable>
+      <statecode>0</statecode>
+      <statuscode>1</statuscode>
+    </connectionreference>
+    <connectionreference connectionreferencelogicalname="washidev_sharedsharepointonline_183ea">
+      <connectionreferencedisplayname>SharePoint WASHiDevFinanceSolution-183ea</connectionreferencedisplayname>
+      <connectorid>/providers/Microsoft.PowerApps/apis/shared_sharepointonline</connectorid>
+      <iscustomizable>1</iscustomizable>
+      <statecode>0</statecode>
+      <statuscode>1</statuscode>
+    </connectionreference>
+    <connectionreference connectionreferencelogicalname="washidev_sharedsharepointonline_2d71e">
+      <connectionreferencedisplayname>SharePoint WASHiDevFinanceSolution-2d71e</connectionreferencedisplayname>
+      <connectorid>/providers/Microsoft.PowerApps/apis/shared_sharepointonline</connectorid>
+      <iscustomizable>1</iscustomizable>
+      <statecode>0</statecode>
+      <statuscode>1</statuscode>
+    </connectionreference>
+    <connectionreference connectionreferencelogicalname="washidev_sharedsharepointonline_3371d">
+      <connectionreferencedisplayname>SharePoint WASHiDevFinanceSolution-3371d</connectionreferencedisplayname>
+      <connectorid>/providers/Microsoft.PowerApps/apis/shared_sharepointonline</connectorid>
+      <iscustomizable>1</iscustomizable>
+      <statecode>0</statecode>
+      <statuscode>1</statuscode>
+    </connectionreference>
+    <connectionreference connectionreferencelogicalname="washidev_sharedsharepointonline_4830b">
+      <connectionreferencedisplayname>SharePoint WASHiDevFinanceSolution-4830b</connectionreferencedisplayname>
+      <connectorid>/providers/Microsoft.PowerApps/apis/shared_sharepointonline</connectorid>
+      <iscustomizable>1</iscustomizable>
+      <statecode>0</statecode>
+      <statuscode>1</statuscode>
+    </connectionreference>
+    <connectionreference connectionreferencelogicalname="washidev_sharedsharepointonline_82e12">
+      <connectionreferencedisplayname>SharePoint WASHiDevFinanceSolution-82e12</connectionreferencedisplayname>
+      <connectorid>/providers/Microsoft.PowerApps/apis/shared_sharepointonline</connectorid>
+      <iscustomizable>1</iscustomizable>
+      <statecode>0</statecode>
+      <statuscode>1</statuscode>
+    </connectionreference>
+    <connectionreference connectionreferencelogicalname="washidev_sharedsharepointonline_9a5ef">
+      <connectionreferencedisplayname>SharePoint WASHiDevFinanceSolution-9a5ef</connectionreferencedisplayname>
+      <connectorid>/providers/Microsoft.PowerApps/apis/shared_sharepointonline</connectorid>
+      <iscustomizable>1</iscustomizable>
+      <statecode>0</statecode>
+      <statuscode>1</statuscode>
+    </connectionreference>
+  </connectionreferences>
+  <Languages>
+    <Language>1033</Language>
+  </Languages>
+</ImportExportXml>
